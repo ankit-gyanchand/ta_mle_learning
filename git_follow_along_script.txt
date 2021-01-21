@@ -13,3 +13,405 @@ git_follow_along_script.txt
 exit
 
 Script done on 2021-01-21 14:01:09+0530
+Script started on 2021-01-21 14:14:23+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git init
+Initialized empty Git repository in /mnt/d/Learning/TA_MLE/git_lessons/.git/
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ ls -l -a
+total 4
+drwxrwxrwx 1 tiger0326 tiger0326 4096 Jan 21 14:15 [0m[34;42m.[0m
+drwxrwxrwx 1 tiger0326 tiger0326 4096 Jan 21 13:58 [34;42m..[0m
+drwxrwxrwx 1 tiger0326 tiger0326 4096 Jan 21 14:15 [34;42m.git[0m
+-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_script.txt[0m
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git add *.c
+fatal: pathspec '*.c' did not match any files
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git add *txt [K
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ dig[K[K[Kgit add LICENSE
+fatal: pathspec 'LICENSE' did not match any files
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "Initial Poo[K[Kroject Version"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <tiger0326@TIGER0326.tigeranalytics.local>) not allowed
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --list
+[?1h=core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git ci[Konfig --gloab[K[Kbal user.name "Ankit Gyan CHna[K[K[Khand"
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --global user.name "Ankit Gyan Chand"[1P[1P[1P[1P[1P[1@e[1@m[1@a[1@i[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@a[C[C[C[C[1@.[1@g[C[C[C[C[C[1Pand"[1Pand"cand"[C[C[C@"t"i"g"e"r"a"n"a"l"y"t"i"c"s"."c"o"m"
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -noseession -noPlugin"
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --global init.defaultBranch main
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --global init.defaultBranch maincore.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -noseession -noPlugin"[A]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Puser.email"Aakit .gan cand@tigeranalytics.com"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pname "Ankit Gyan Chand"list[K
+[?1h=user.name=Ankit Gyan Chand[m
+core.editor='C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config user.email
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config user.email[K[K[K[K[Kname
+Ankit Gyan Chand
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config user.nameemail[4P--listglobal init.defaultBranch maincore.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -noseession -noPlugin"[A]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Puser.email"Aakit .gan cand@tigeranalytics.com"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --global user.email"Aakit .gan cand@tigeranalytics.com"user.name[Kemail
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config user.email--global user.email"Aakit .gan cand@tigeranalytics.com"user.name[Kemail[4P--list
+[?1h=user.name=Ankit Gyan Chand[m
+core.editor='C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --listuser.email--global user.email"Aakit .gan cand@tigeranalytics.com"[1@ [C[C[C[1P[1P[1@a[1@n[C[C[C[C[1P[C[C[C[1@y[C[C[1Pcand@tigeranalytics.com"user.email[Kh--global user.email "ankit.gyancand@tigeranalytics.com"
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --global user.email "ankit.gyancand@tigeranalytics.com"list[K
+[?1h=user.name=Ankit Gyan Chand[m
+user.email=ankit.gyancand@tigeranalytics.com[m
+core.editor='C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --listglobal user.email "ankit.gyancand@tigeranalytics.com"list[Kuser.emailh--global user.email"Aakit .gan cand@tigeranalytics.com"user.name[Kemail[4P--listglobal init.defaultBranch maincore.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -noseession -noPlugin"[A]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Puser.email"Aakit .gan cand@tigeranalytics.com"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pname "Ankit Gyan Chand"list[Kmmit -m "Initial Project Version"
+[master (root-commit) 17823e3] Initial Project Version
+ 1 file changed, 15 insertions(+)
+ create mode 100644 git_follow_along_script.txt
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git clone https://github.com/libgit2/libgit2
+Cloning into 'libgit2'...
+remote: Enumerating objects: 107274, done.[K
+remote: Counting objects:   0% (1/107274)[Kremote: Counting objects:   1% (1073/107274)[Kremote: Counting objects:   2% (2146/107274)[Kremote: Counting objects:   3% (3219/107274)[Kremote: Counting objects:   4% (4291/107274)[Kremote: Counting objects:   5% (5364/107274)[Kremote: Counting objects:   6% (6437/107274)[Kremote: Counting objects:   7% (7510/107274)[Kremote: Counting objects:   8% (8582/107274)[Kremote: Counting objects:   9% (9655/107274)[Kremote: Counting objects:  10% (10728/107274)[Kremote: Counting objects:  11% (11801/107274)[Kremote: Counting objects:  12% (12873/107274)[Kremote: Counting objects:  13% (13946/107274)[Kremote: Counting objects:  14% (15019/107274)[Kremote: Counting objects:  15% (16092/107274)[Kremote: Counting objects:  16% (17164/107274)[Kremote: Counting objects:  17% (18237/107274)[Kremote: Counting objects:  18% (19310/107274)[Kremote: Counting objects:  19% (20383/107274)[Kremote: Counting objects:  20% (21455/107274)[Kremote: Counting objects:  21% (22528/107274)[Kremote: Counting objects:  22% (23601/107274)[Kremote: Counting objects:  23% (24674/107274)[Kremote: Counting objects:  24% (25746/107274)[Kremote: Counting objects:  25% (26819/107274)[Kremote: Counting objects:  26% (27892/107274)[Kremote: Counting objects:  27% (28964/107274)[Kremote: Counting objects:  28% (30037/107274)[Kremote: Counting objects:  29% (31110/107274)[Kremote: Counting objects:  30% (32183/107274)[Kremote: Counting objects:  31% (33255/107274)[Kremote: Counting objects:  32% (34328/107274)[Kremote: Counting objects:  33% (35401/107274)[Kremote: Counting objects:  34% (36474/107274)[Kremote: Counting objects:  35% (37546/107274)[Kremote: Counting objects:  36% (38619/107274)[Kremote: Counting objects:  37% (39692/107274)[Kremote: Counting objects:  38% (40765/107274)[Kremote: Counting objects:  39% (41837/107274)[Kremote: Counting objects:  40% (42910/107274)[Kremote: Counting objects:  41% (43983/107274)[Kremote: Counting objects:  42% (45056/107274)[Kremote: Counting objects:  43% (46128/107274)[Kremote: Counting objects:  44% (47201/107274)[Kremote: Counting objects:  45% (48274/107274)[Kremote: Counting objects:  46% (49347/107274)[Kremote: Counting objects:  47% (50419/107274)[Kremote: Counting objects:  48% (51492/107274)[Kremote: Counting objects:  49% (52565/107274)[Kremote: Counting objects:  50% (53637/107274)[Kremote: Counting objects:  51% (54710/107274)[Kremote: Counting objects:  52% (55783/107274)[Kremote: Counting objects:  53% (56856/107274)[Kremote: Counting objects:  54% (57928/107274)[Kremote: Counting objects:  55% (59001/107274)[Kremote: Counting objects:  56% (60074/107274)[Kremote: Counting objects:  57% (61147/107274)[Kremote: Counting objects:  58% (62219/107274)[Kremote: Counting objects:  59% (63292/107274)[Kremote: Counting objects:  60% (64365/107274)[Kremote: Counting objects:  61% (65438/107274)[Kremote: Counting objects:  62% (66510/107274)[Kremote: Counting objects:  63% (67583/107274)[Kremote: Counting objects:  64% (68656/107274)[Kremote: Counting objects:  65% (69729/107274)[Kremote: Counting objects:  66% (70801/107274)[Kremote: Counting objects:  67% (71874/107274)[Kremote: Counting objects:  68% (72947/107274)[Kremote: Counting objects:  69% (74020/107274)[Kremote: Counting objects:  70% (75092/107274)[Kremote: Counting objects:  71% (76165/107274)[Kremote: Counting objects:  72% (77238/107274)[Kremote: Counting objects:  73% (78311/107274)[Kremote: Counting objects:  74% (79383/107274)[Kremote: Counting objects:  75% (80456/107274)[Kremote: Counting objects:  76% (81529/107274)[Kremote: Counting objects:  77% (82601/107274)[Kremote: Counting objects:  78% (83674/107274)[Kremote: Counting objects:  79% (84747/107274)[Kremote: Counting objects:  80% (85820/107274)[Kremote: Counting objects:  81% (86892/107274)[Kremote: Counting objects:  82% (87965/107274)[Kremote: Counting objects:  83% (89038/107274)[Kremote: Counting objects:  84% (90111/107274)[Kremote: Counting objects:  85% (91183/107274)[Kremote: Counting objects:  86% (92256/107274)[Kremote: Counting objects:  87% (93329/107274)[Kremote: Counting objects:  88% (94402/107274)[Kremote: Counting objects:  89% (95474/107274)[Kremote: Counting objects:  90% (96547/107274)[Kremote: Counting objects:  91% (97620/107274)[Kremote: Counting objects:  92% (98693/107274)[Kremote: Counting objects:  93% (99765/107274)[Kremote: Counting objects:  94% (100838/107274)[Kremote: Counting objects:  95% (101911/107274)[Kremote: Counting objects:  96% (102984/107274)[Kremote: Counting objects:  97% (104056/107274)[Kremote: Counting objects:  98% (105129/107274)[Kremote: Counting objects:  99% (106202/107274)[Kremote: Counting objects: 100% (107274/107274)[Kremote: Counting objects: 100% (107274/107274), done.[K
+remote: Compressing objects:   0% (1/29498)[Kremote: Compressing objects:   1% (295/29498)[Kremote: Compressing objects:   2% (590/29498)[Kremote: Compressing objects:   3% (885/29498)[Kremote: Compressing objects:   4% (1180/29498)[Kremote: Compressing objects:   5% (1475/29498)[Kremote: Compressing objects:   6% (1770/29498)[Kremote: Compressing objects:   7% (2065/29498)[Kremote: Compressing objects:   8% (2360/29498)[Kremote: Compressing objects:   9% (2655/29498)[Kremote: Compressing objects:  10% (2950/29498)[Kremote: Compressing objects:  11% (3245/29498)[Kremote: Compressing objects:  12% (3540/29498)[Kremote: Compressing objects:  13% (3835/29498)[Kremote: Compressing objects:  14% (4130/29498)[Kremote: Compressing objects:  15% (4425/29498)[Kremote: Compressing objects:  16% (4720/29498)[Kremote: Compressing objects:  17% (5015/29498)[Kremote: Compressing objects:  18% (5310/29498)[Kremote: Compressing objects:  19% (5605/29498)[Kremote: Compressing objects:  20% (5900/29498)[Kremote: Compressing objects:  21% (6195/29498)[Kremote: Compressing objects:  22% (6490/29498)[Kremote: Compressing objects:  23% (6785/29498)[Kremote: Compressing objects:  24% (7080/29498)[Kremote: Compressing objects:  25% (7375/29498)[Kremote: Compressing objects:  26% (7670/29498)[Kremote: Compressing objects:  27% (7965/29498)[Kremote: Compressing objects:  28% (8260/29498)[Kremote: Compressing objects:  29% (8555/29498)[Kremote: Compressing objects:  30% (8850/29498)[Kremote: Compressing objects:  31% (9145/29498)[Kremote: Compressing objects:  32% (9440/29498)[Kremote: Compressing objects:  33% (9735/29498)[Kremote: Compressing objects:  34% (10030/29498)[Kremote: Compressing objects:  35% (10325/29498)[Kremote: Compressing objects:  36% (10620/29498)[Kremote: Compressing objects:  37% (10915/29498)[Kremote: Compressing objects:  38% (11210/29498)[Kremote: Compressing objects:  39% (11505/29498)[Kremote: Compressing objects:  40% (11800/29498)[Kremote: Compressing objects:  41% (12095/29498)[Kremote: Compressing objects:  42% (12390/29498)[Kremote: Compressing objects:  43% (12685/29498)[Kremote: Compressing objects:  44% (12980/29498)[Kremote: Compressing objects:  45% (13275/29498)[Kremote: Compressing objects:  46% (13570/29498)[Kremote: Compressing objects:  47% (13865/29498)[Kremote: Compressing objects:  48% (14160/29498)[Kremote: Compressing objects:  49% (14455/29498)[Kremote: Compressing objects:  50% (14749/29498)[Kremote: Compressing objects:  51% (15044/29498)[Kremote: Compressing objects:  52% (15339/29498)[Kremote: Compressing objects:  53% (15634/29498)[Kremote: Compressing objects:  54% (15929/29498)[Kremote: Compressing objects:  55% (16224/29498)[Kremote: Compressing objects:  56% (16519/29498)[Kremote: Compressing objects:  57% (16814/29498)[Kremote: Compressing objects:  58% (17109/29498)[Kremote: Compressing objects:  59% (17404/29498)[Kremote: Compressing objects:  60% (17699/29498)[Kremote: Compressing objects:  61% (17994/29498)[Kremote: Compressing objects:  62% (18289/29498)[Kremote: Compressing objects:  63% (18584/29498)[Kremote: Compressing objects:  64% (18879/29498)[Kremote: Compressing objects:  65% (19174/29498)[Kremote: Compressing objects:  66% (19469/29498)[Kremote: Compressing objects:  67% (19764/29498)[Kremote: Compressing objects:  68% (20059/29498)[Kremote: Compressing objects:  69% (20354/29498)[Kremote: Compressing objects:  70% (20649/29498)[Kremote: Compressing objects:  71% (20944/29498)[Kremote: Compressing objects:  72% (21239/29498)[Kremote: Compressing objects:  73% (21534/29498)[Kremote: Compressing objects:  74% (21829/29498)[Kremote: Compressing objects:  75% (22124/29498)[Kremote: Compressing objects:  76% (22419/29498)[Kremote: Compressing objects:  77% (22714/29498)[Kremote: Compressing objects:  78% (23009/29498)[Kremote: Compressing objects:  79% (23304/29498)[Kremote: Compressing objects:  80% (23599/29498)[Kremote: Compressing objects:  81% (23894/29498)[Kremote: Compressing objects:  82% (24189/29498)[Kremote: Compressing objects:  83% (24484/29498)[Kremote: Compressing objects:  84% (24779/29498)[Kremote: Compressing objects:  85% (25074/29498)[Kremote: Compressing objects:  86% (25369/29498)[Kremote: Compressing objects:  87% (25664/29498)[Kremote: Compressing objects:  88% (25959/29498)[Kremote: Compressing objects:  89% (26254/29498)[Kremote: Compressing objects:  90% (26549/29498)[Kremote: Compressing objects:  91% (26844/29498)[Kremote: Compressing objects:  92% (27139/29498)[Kremote: Compressing objects:  93% (27434/29498)[Kremote: Compressing objects:  94% (27729/29498)[Kremote: Compressing objects:  95% (28024/29498)[Kremote: Compressing objects:  96% (28319/29498)[Kremote: Compressing objects:  97% (28614/29498)[Kremote: Compressing objects:  98% (28909/29498)[Kremote: Compressing objects:  99% (29204/29498)[Kremote: Compressing objects: 100% (29498/29498)[Kremote: Compressing objects: 100% (29498/29498), done.[K
+Receiving objects:   0% (1/107274)   Receiving objects:   1% (1073/107274), 348.00 KiB | 674.00 KiB/s   Receiving objects:   2% (2146/107274), 348.00 KiB | 674.00 KiB/s   Receiving objects:   2% (2608/107274), 348.00 KiB | 674.00 KiB/s   Receiving objects:   3% (3219/107274), 988.00 KiB | 961.00 KiB/s   Receiving objects:   4% (4291/107274), 1.41 MiB | 945.00 KiB/s   Receiving objects:   5% (5364/107274), 1.41 MiB | 945.00 KiB/s   Receiving objects:   5% (5513/107274), 1.41 MiB | 945.00 KiB/s   Receiving objects:   6% (6437/107274), 1.94 MiB | 978.00 KiB/s   Receiving objects:   7% (7510/107274), 2.21 MiB | 887.00 KiB/s   Receiving objects:   7% (7774/107274), 2.21 MiB | 887.00 KiB/s   Receiving objects:   8% (8582/107274), 2.49 MiB | 837.00 KiB/s   Receiving objects:   8% (9527/107274), 2.70 MiB | 777.00 KiB/s   Receiving objects:   9% (9655/107274), 2.89 MiB | 728.00 KiB/s   Receiving objects:  10% (10728/107274), 3.08 MiB | 690.00 KiB/s   Receiving objects:  10% (11272/107274), 3.08 MiB | 690.00 KiB/s   Receiving objects:  11% (11801/107274), 3.32 MiB | 668.00 KiB/s   Receiving objects:  11% (12412/107274), 3.52 MiB | 521.00 KiB/s   Receiving objects:  12% (12873/107274), 3.52 MiB | 521.00 KiB/s   Receiving objects:  13% (13946/107274), 3.52 MiB | 521.00 KiB/s   Receiving objects:  14% (15019/107274), 3.52 MiB | 521.00 KiB/s   Receiving objects:  15% (16092/107274), 4.23 MiB | 575.00 KiB/s   Receiving objects:  16% (17164/107274), 4.23 MiB | 575.00 KiB/s   Receiving objects:  16% (17720/107274), 4.59 MiB | 539.00 KiB/s   Receiving objects:  17% (18237/107274), 4.59 MiB | 539.00 KiB/s   Receiving objects:  18% (19310/107274), 5.00 MiB | 571.00 KiB/s   Receiving objects:  19% (20383/107274), 5.00 MiB | 571.00 KiB/s   Receiving objects:  19% (20873/107274), 5.00 MiB | 571.00 KiB/s   Receiving objects:  20% (21455/107274), 5.67 MiB | 648.00 KiB/s   Receiving objects:  21% (22528/107274), 5.67 MiB | 648.00 KiB/s   Receiving objects:  22% (23601/107274), 6.07 MiB | 687.00 KiB/s   Receiving objects:  22% (24167/107274), 6.07 MiB | 687.00 KiB/s   Receiving objects:  22% (24457/107274), 6.77 MiB | 751.00 KiB/s   Receiving objects:  22% (24499/107274), 7.73 MiB | 945.00 KiB/s   Receiving objects:  22% (24515/107274), 8.39 MiB | 856.00 KiB/s   Receiving objects:  22% (24533/107274), 8.96 MiB | 618.00 KiB/s   Receiving objects:  22% (24533/107274), 8.96 MiB | 478.00 KiB/s   Receiving objects:  23% (24674/107274), 8.96 MiB | 478.00 KiB/s   Receiving objects:  23% (24882/107274), 8.96 MiB | 478.00 KiB/s   Receiving objects:  23% (25074/107274), 10.57 MiB | 618.00 KiB/s   Receiving objects:  23% (25479/107274), 10.85 MiB | 517.00 KiB/s   Receiving objects:  24% (25746/107274), 11.51 MiB | 554.00 KiB/s   Receiving objects:  24% (26613/107274), 11.84 MiB | 570.00 KiB/s   Receiving objects:  24% (26768/107274), 12.35 MiB | 579.00 KiB/s   Receiving objects:  25% (26819/107274), 12.35 MiB | 579.00 KiB/s   Receiving objects:  25% (27568/107274), 12.95 MiB | 781.00 KiB/s   Receiving objects:  26% (27892/107274), 12.95 MiB | 781.00 KiB/s   Receiving objects:  27% (28964/107274), 13.83 MiB | 641.00 KiB/s   Receiving objects:  27% (29233/107274), 13.83 MiB | 641.00 KiB/s   Receiving objects:  28% (30037/107274), 14.88 MiB | 897.00 KiB/s   Receiving objects:  28% (30367/107274), 15.34 MiB | 854.00 KiB/s   Receiving objects:  29% (31110/107274), 16.19 MiB | 973.00 KiB/s   Receiving objects:  30% (32183/107274), 16.19 MiB | 973.00 KiB/s   Receiving objects:  30% (32408/107274), 16.58 MiB | 1010.00 KiB/s   Receiving objects:  31% (33255/107274), 16.85 MiB | 1015.00 KiB/s   Receiving objects:  31% (34025/107274), 17.28 MiB | 1.02 MiB/s   Receiving objects:  32% (34328/107274), 17.28 MiB | 1.02 MiB/s   Receiving objects:  33% (35401/107274), 17.99 MiB | 1.11 MiB/s   Receiving objects:  33% (35597/107274), 18.58 MiB | 1.13 MiB/s   Receiving objects:  33% (36358/107274), 19.33 MiB | 995.00 KiB/s   Receiving objects:  34% (36474/107274), 19.33 MiB | 995.00 KiB/s   Receiving objects:  34% (37427/107274), 19.94 MiB | 834.00 KiB/s   Receiving objects:  35% (37546/107274), 19.94 MiB | 834.00 KiB/s   Receiving objects:  35% (38390/107274), 20.41 MiB | 789.00 KiB/s   Receiving objects:  36% (38619/107274), 20.41 MiB | 789.00 KiB/s   Receiving objects:  37% (39692/107274), 20.70 MiB | 758.00 KiB/s   Receiving objects:  37% (40118/107274), 20.70 MiB | 758.00 KiB/s   Receiving objects:  38% (40765/107274), 21.18 MiB | 708.00 KiB/s   Receiving objects:  39% (41837/107274), 21.57 MiB | 665.00 KiB/s   Receiving objects:  39% (42162/107274), 21.57 MiB | 665.00 KiB/s   Receiving objects:  40% (42910/107274), 22.04 MiB | 670.00 KiB/s   Receiving objects:  40% (43869/107274), 23.01 MiB | 747.00 KiB/s   Receiving objects:  41% (43983/107274), 23.01 MiB | 747.00 KiB/s   Receiving objects:  42% (45056/107274), 23.53 MiB | 804.00 KiB/s   Receiving objects:  42% (45765/107274), 23.53 MiB | 804.00 KiB/s   Receiving objects:  43% (46128/107274), 24.25 MiB | 863.00 KiB/s   Receiving objects:  43% (46431/107274), 24.47 MiB | 848.00 KiB/s   Receiving objects:  43% (46431/107274), 24.51 MiB | 591.00 KiB/s   Receiving objects:  43% (46437/107274), 24.51 MiB | 591.00 KiB/s   Receiving objects:  43% (46503/107274), 25.54 MiB | 621.00 KiB/s   Receiving objects:  43% (46538/107274), 26.12 MiB | 550.00 KiB/s   Receiving objects:  43% (46629/107274), 26.79 MiB | 502.00 KiB/s   Receiving objects:  44% (47201/107274), 27.76 MiB | 583.00 KiB/s   Receiving objects:  44% (47500/107274), 27.76 MiB | 583.00 KiB/s   Receiving objects:  45% (48274/107274), 27.76 MiB | 583.00 KiB/s   Receiving objects:  46% (49347/107274), 28.29 MiB | 847.00 KiB/s   Receiving objects:  47% (50419/107274), 28.29 MiB | 847.00 KiB/s   Receiving objects:  47% (51002/107274), 28.73 MiB | 869.00 KiB/s   Receiving objects:  48% (51492/107274), 28.73 MiB | 869.00 KiB/s   Receiving objects:  49% (52565/107274), 29.37 MiB | 861.00 KiB/s   Receiving objects:  50% (53637/107274), 29.37 MiB | 861.00 KiB/s   Receiving objects:  50% (54182/107274), 29.86 MiB | 889.00 KiB/s   Receiving objects:  51% (54710/107274), 30.23 MiB | 927.00 KiB/s   Receiving objects:  51% (55281/107274), 30.54 MiB | 948.00 KiB/s   Receiving objects:  52% (55783/107274), 30.54 MiB | 948.00 KiB/s   Receiving objects:  53% (56856/107274), 30.54 MiB | 948.00 KiB/s   Receiving objects:  54% (57928/107274), 30.90 MiB | 926.00 KiB/s   Receiving objects:  54% (58298/107274), 31.11 MiB | 728.00 KiB/s   Receiving objects:  55% (59001/107274), 31.11 MiB | 728.00 KiB/s   Receiving objects:  56% (60074/107274), 31.11 MiB | 728.00 KiB/s   Receiving objects:  56% (60529/107274), 31.11 MiB | 728.00 KiB/s   Receiving objects:  56% (60549/107274), 33.12 MiB | 870.00 KiB/s   Receiving objects:  56% (60621/107274), 34.53 MiB | 925.00 KiB/s   Receiving objects:  56% (60633/107274), 34.98 MiB | 920.00 KiB/s   Receiving objects:  56% (60645/107274), 36.02 MiB | 984.00 KiB/s   Receiving objects:  56% (60659/107274), 36.93 MiB | 1.23 MiB/s   Receiving objects:  56% (60749/107274), 37.86 MiB | 1.04 MiB/s   Receiving objects:  56% (60863/107274), 38.49 MiB | 894.00 KiB/s   Receiving objects:  57% (61147/107274), 38.96 MiB | 899.00 KiB/s   Receiving objects:  58% (62219/107274), 39.38 MiB | 888.00 KiB/s   Receiving objects:  59% (63292/107274), 39.38 MiB | 888.00 KiB/s   Receiving objects:  59% (63429/107274), 39.38 MiB | 888.00 KiB/s   Receiving objects:  60% (64365/107274), 39.80 MiB | 850.00 KiB/s   Receiving objects:  60% (64603/107274), 40.08 MiB | 786.00 KiB/s   Receiving objects:  60% (64617/107274), 40.39 MiB | 526.00 KiB/s   Receiving objects:  60% (64618/107274), 40.40 MiB | 375.00 KiB/s   Receiving objects:  61% (65438/107274), 40.40 MiB | 375.00 KiB/s   Receiving objects:  62% (66510/107274), 40.40 MiB | 375.00 KiB/s   Receiving objects:  62% (67129/107274), 41.37 MiB | 421.00 KiB/s   Receiving objects:  63% (67583/107274), 41.37 MiB | 421.00 KiB/s   Receiving objects:  64% (68656/107274), 41.37 MiB | 421.00 KiB/s   Receiving objects:  64% (68933/107274), 41.37 MiB | 421.00 KiB/s   Receiving objects:  65% (69729/107274), 42.66 MiB | 553.00 KiB/s   Receiving objects:  65% (70641/107274), 43.03 MiB | 538.00 KiB/s   Receiving objects:  66% (70801/107274), 43.03 MiB | 538.00 KiB/s   Receiving objects:  67% (71874/107274), 43.53 MiB | 550.00 KiB/s   Receiving objects:  67% (71974/107274), 44.08 MiB | 567.00 KiB/s   Receiving objects:  68% (72947/107274), 44.42 MiB | 577.00 KiB/s   Receiving objects:  68% (73608/107274), 44.76 MiB | 590.00 KiB/s   Receiving objects:  69% (74020/107274), 44.76 MiB | 590.00 KiB/s   Receiving objects:  69% (74982/107274), 45.52 MiB | 970.00 KiB/s   Receiving objects:  70% (75092/107274), 45.81 MiB | 984.00 KiB/s   Receiving objects:  70% (75875/107274), 46.01 MiB | 742.00 KiB/s   Receiving objects:  71% (76165/107274), 46.01 MiB | 742.00 KiB/s   Receiving objects:  72% (77238/107274), 46.28 MiB | 716.00 KiB/s   Receiving objects:  73% (78311/107274), 46.28 MiB | 716.00 KiB/s   Receiving objects:  73% (79188/107274), 46.71 MiB | 703.00 KiB/s   Receiving objects:  74% (79383/107274), 46.71 MiB | 703.00 KiB/s   Receiving objects:  75% (80456/107274), 46.98 MiB | 638.00 KiB/s   Receiving objects:  75% (80940/107274), 47.27 MiB | 626.00 KiB/s   Receiving objects:  76% (81529/107274), 47.49 MiB | 597.00 KiB/s   Receiving objects:  76% (82137/107274), 47.49 MiB | 597.00 KiB/s   Receiving objects:  77% (82601/107274), 47.71 MiB | 576.00 KiB/s   Receiving objects:  78% (83674/107274), 47.71 MiB | 576.00 KiB/s   Receiving objects:  78% (84211/107274), 47.97 MiB | 544.00 KiB/s   Receiving objects:  79% (84747/107274), 48.20 MiB | 531.00 KiB/s   Receiving objects:  80% (85820/107274), 48.51 MiB | 555.00 KiB/s   Receiving objects:  80% (86098/107274), 48.51 MiB | 555.00 KiB/s   Receiving objects:  81% (86892/107274), 48.87 MiB | 578.00 KiB/s   Receiving objects:  82% (87965/107274), 49.20 MiB | 553.00 KiB/s   Receiving objects:  83% (89038/107274), 49.20 MiB | 553.00 KiB/s   Receiving objects:  83% (89066/107274), 49.20 MiB | 553.00 KiB/s   Receiving objects:  84% (90111/107274), 49.48 MiB | 556.00 KiB/s   Receiving objects:  84% (90856/107274), 49.74 MiB | 549.00 KiB/s   Receiving objects:  85% (91183/107274), 49.96 MiB | 549.00 KiB/s   Receiving objects:  85% (92055/107274), 50.18 MiB | 549.00 KiB/s   Receiving objects:  86% (92256/107274), 50.18 MiB | 549.00 KiB/s   Receiving objects:  87% (93329/107274), 50.61 MiB | 533.00 KiB/s   Receiving objects:  87% (93638/107274), 50.61 MiB | 533.00 KiB/s   Receiving objects:  87% (93883/107274), 50.83 MiB | 350.00 KiB/s   Receiving objects:  87% (94216/107274), 50.83 MiB | 350.00 KiB/s   Receiving objects:  88% (94402/107274), 50.83 MiB | 350.00 KiB/s   Receiving objects:  89% (95474/107274), 50.83 MiB | 350.00 KiB/s   Receiving objects:  90% (96547/107274), 51.20 MiB | 356.00 KiB/s   Receiving objects:  91% (97620/107274), 51.54 MiB | 367.00 KiB/s   Receiving objects:  92% (98693/107274), 51.54 MiB | 367.00 KiB/s   Receiving objects:  93% (99765/107274), 51.54 MiB | 367.00 KiB/s   Receiving objects:  93% (99987/107274), 51.54 MiB | 367.00 KiB/s   Receiving objects:  94% (100838/107274), 52.09 MiB | 419.00 KiB/s   Receiving objects:  94% (101816/107274), 52.29 MiB | 415.00 KiB/s   Receiving objects:  95% (101911/107274), 52.29 MiB | 415.00 KiB/s   Receiving objects:  96% (102984/107274), 52.50 MiB | 413.00 KiB/s   Receiving objects:  96% (103528/107274), 52.64 MiB | 404.00 KiB/s   Receiving objects:  96% (103872/107274), 52.71 MiB | 308.00 KiB/s   Receiving objects:  97% (104056/107274), 52.71 MiB | 308.00 KiB/s   Receiving objects:  97% (104326/107274), 52.71 MiB | 308.00 KiB/s   Receiving objects:  98% (105129/107274), 53.37 MiB | 375.00 KiB/s   Receiving objects:  98% (105882/107274), 53.52 MiB | 469.00 KiB/s   Receiving objects:  99% (106202/107274), 53.64 MiB | 429.00 KiB/s   Receiving objects:  99% (106321/107274), 53.76 MiB | 358.00 KiB/s   remote: Total 107274 (delta 75852), reused 107271 (delta 75849), pack-reused 0[K
+Receiving objects: 100% (107274/107274), 53.76 MiB | 358.00 KiB/s   Receiving objects: 100% (107274/107274), 54.00 MiB | 677.00 KiB/s, done.
+Resolving deltas:   0% (0/75852)   Resolving deltas:   1% (762/75852)   Resolving deltas:   2% (1552/75852)   Resolving deltas:   3% (2279/75852)   Resolving deltas:   4% (3066/75852)   Resolving deltas:   5% (3844/75852)   Resolving deltas:   6% (4562/75852)   Resolving deltas:   7% (5314/75852)   Resolving deltas:   8% (6108/75852)   Resolving deltas:   9% (6904/75852)   Resolving deltas:  10% (7934/75852)   Resolving deltas:  11% (8499/75852)   Resolving deltas:  12% (9108/75852)   Resolving deltas:  13% (9871/75852)   Resolving deltas:  14% (10624/75852)   Resolving deltas:  15% (11484/75852)   Resolving deltas:  16% (12190/75852)   Resolving deltas:  17% (13045/75852)   Resolving deltas:  18% (13656/75852)   Resolving deltas:  19% (14606/75852)   Resolving deltas:  20% (15301/75852)   Resolving deltas:  21% (15934/75852)   Resolving deltas:  22% (16690/75852)   Resolving deltas:  23% (17871/75852)   Resolving deltas:  24% (18274/75852)   Resolving deltas:  25% (18963/75852)   Resolving deltas:  26% (19733/75852)   Resolving deltas:  27% (20483/75852)   Resolving deltas:  28% (21358/75852)   Resolving deltas:  29% (22000/75852)   Resolving deltas:  30% (22787/75852)   Resolving deltas:  31% (23519/75852)   Resolving deltas:  32% (24285/75852)   Resolving deltas:  33% (25163/75852)   Resolving deltas:  34% (25792/75852)   Resolving deltas:  35% (26657/75852)   Resolving deltas:  35% (26761/75852)   Resolving deltas:  36% (27332/75852)   Resolving deltas:  37% (28199/75852)   Resolving deltas:  38% (28825/75852)   Resolving deltas:  39% (29659/75852)   Resolving deltas:  40% (30419/75852)   Resolving deltas:  41% (31114/75852)   Resolving deltas:  42% (31866/75852)   Resolving deltas:  43% (32618/75852)   Resolving deltas:  44% (33394/75852)   Resolving deltas:  45% (34323/75852)   Resolving deltas:  46% (34895/75852)   Resolving deltas:  47% (35851/75852)   Resolving deltas:  48% (36756/75852)   Resolving deltas:  49% (37237/75852)   Resolving deltas:  50% (38043/75852)   Resolving deltas:  51% (38725/75852)   Resolving deltas:  52% (40055/75852)   Resolving deltas:  53% (40940/75852)   Resolving deltas:  54% (41395/75852)   Resolving deltas:  55% (41988/75852)   Resolving deltas:  56% (42539/75852)   Resolving deltas:  57% (43486/75852)   Resolving deltas:  58% (44030/75852)   Resolving deltas:  59% (44772/75852)   Resolving deltas:  60% (45557/75852)   Resolving deltas:  60% (45728/75852)   Resolving deltas:  61% (46271/75852)   Resolving deltas:  62% (47104/75852)   Resolving deltas:  63% (47789/75852)   Resolving deltas:  64% (48561/75852)   Resolving deltas:  65% (49339/75852)   Resolving deltas:  66% (50075/75852)   Resolving deltas:  67% (50830/75852)   Resolving deltas:  68% (51589/75852)   Resolving deltas:  69% (52339/75852)   Resolving deltas:  70% (53100/75852)   Resolving deltas:  71% (53860/75852)   Resolving deltas:  72% (54619/75852)   Resolving deltas:  73% (55553/75852)   Resolving deltas:  74% (56664/75852)   Resolving deltas:  75% (57100/75852)   Resolving deltas:  76% (57654/75852)   Resolving deltas:  77% (58421/75852)   Resolving deltas:  78% (59181/75852)   Resolving deltas:  79% (60108/75852)   Resolving deltas:  80% (60751/75852)   Resolving deltas:  81% (61444/75852)   Resolving deltas:  82% (62206/75852)   Resolving deltas:  83% (63040/75852)   Resolving deltas:  84% (63717/75852)   Resolving deltas:  85% (64486/75852)   Resolving deltas:  86% (65263/75852)   Resolving deltas:  87% (66012/75852)   Resolving deltas:  88% (66804/75852)   Resolving deltas:  89% (67523/75852)   Resolving deltas:  90% (68287/75852)   Resolving deltas:  90% (68644/75852)   Resolving deltas:  91% (69037/75852)   Resolving deltas:  92% (69797/75852)   Resolving deltas:  93% (70597/75852)   Resolving deltas:  94% (71324/75852)   Resolving deltas:  95% (72117/75852)   Resolving deltas:  96% (72830/75852)   Resolving deltas:  97% (73584/75852)   Resolving deltas:  98% (74414/75852)   Resolving deltas:  99% (75109/75852)   Resolving deltas: 100% (75852/75852)   Resolving deltas: 100% (75852/75852), done.
+Checking out files:   2% (261/10825)   Checking out files:   3% (325/10825)   Checking out files:   4% (433/10825)   Checking out files:   5% (542/10825)   Checking out files:   6% (650/10825)   Checking out files:   6% (703/10825)   Checking out files:   7% (758/10825)   Checking out files:   8% (866/10825)   Checking out files:   9% (975/10825)   Checking out files:  10% (1083/10825)   Checking out files:  11% (1191/10825)   Checking out files:  12% (1299/10825)   Checking out files:  12% (1345/10825)   Checking out files:  13% (1408/10825)   Checking out files:  14% (1516/10825)   Checking out files:  15% (1624/10825)   Checking out files:  15% (1721/10825)   Checking out files:  16% (1732/10825)   Checking out files:  17% (1841/10825)   Checking out files:  18% (1949/10825)   Checking out files:  19% (2057/10825)   Checking out files:  19% (2138/10825)   Checking out files:  20% (2165/10825)   Checking out files:  21% (2274/10825)   Checking out files:  22% (2382/10825)   Checking out files:  23% (2490/10825)   Checking out files:  24% (2598/10825)   Checking out files:  24% (2694/10825)   Checking out files:  25% (2707/10825)   Checking out files:  26% (2815/10825)   Checking out files:  27% (2923/10825)   Checking out files:  27% (3009/10825)   Checking out files:  28% (3031/10825)   Checking out files:  29% (3140/10825)   Checking out files:  30% (3248/10825)   Checking out files:  31% (3356/10825)   Checking out files:  31% (3407/10825)   Checking out files:  32% (3464/10825)   Checking out files:  33% (3573/10825)   Checking out files:  34% (3681/10825)   Checking out files:  35% (3789/10825)   Checking out files:  36% (3897/10825)   Checking out files:  37% (4006/10825)   Checking out files:  37% (4019/10825)   Checking out files:  38% (4114/10825)   Checking out files:  39% (4222/10825)   Checking out files:  40% (4330/10825)   Checking out files:  41% (4439/10825)   Checking out files:  42% (4547/10825)   Checking out files:  42% (4650/10825)   Checking out files:  43% (4655/10825)   Checking out files:  44% (4763/10825)   Checking out files:  45% (4872/10825)   Checking out files:  46% (4980/10825)   Checking out files:  46% (5077/10825)   Checking out files:  47% (5088/10825)   Checking out files:  48% (5196/10825)   Checking out files:  48% (5234/10825)   Checking out files:  49% (5305/10825)   Checking out files:  50% (5413/10825)   Checking out files:  50% (5435/10825)   Checking out files:  51% (5521/10825)   Checking out files:  52% (5629/10825)   Checking out files:  53% (5738/10825)   Checking out files:  54% (5846/10825)   Checking out files:  55% (5954/10825)   Checking out files:  55% (6046/10825)   Checking out files:  56% (6062/10825)   Checking out files:  57% (6171/10825)   Checking out files:  58% (6279/10825)   Checking out files:  59% (6387/10825)   Checking out files:  60% (6495/10825)   Checking out files:  60% (6509/10825)   Checking out files:  61% (6604/10825)   Checking out files:  62% (6712/10825)   Checking out files:  63% (6820/10825)   Checking out files:  64% (6928/10825)   Checking out files:  65% (7037/10825)   Checking out files:  65% (7101/10825)   Checking out files:  66% (7145/10825)   Checking out files:  67% (7253/10825)   Checking out files:  68% (7361/10825)   Checking out files:  69% (7470/10825)   Checking out files:  69% (7554/10825)   Checking out files:  70% (7578/10825)   Checking out files:  71% (7686/10825)   Checking out files:  72% (7794/10825)   Checking out files:  73% (7903/10825)   Checking out files:  73% (7918/10825)   Checking out files:  74% (8011/10825)   Checking out files:  75% (8119/10825)   Checking out files:  76% (8227/10825)   Checking out files:  76% (8234/10825)   Checking out files:  77% (8336/10825)   Checking out files:  78% (8444/10825)   Checking out files:  79% (8552/10825)   Checking out files:  80% (8660/10825)   Checking out files:  80% (8679/10825)   Checking out files:  81% (8769/10825)   Checking out files:  82% (8877/10825)   Checking out files:  82% (8969/10825)   Checking out files:  83% (8985/10825)   Checking out files:  84% (9093/10825)   Checking out files:  84% (9135/10825)   Checking out files:  85% (9202/10825)   Checking out files:  86% (9310/10825)   Checking out files:  87% (9418/10825)   Checking out files:  87% (9472/10825)   Checking out files:  88% (9526/10825)   Checking out files:  89% (9635/10825)   Checking out files:  90% (9743/10825)   Checking out files:  90% (9761/10825)   Checking out files:  91% (9851/10825)   Checking out files:  92% (9959/10825)   Checking out files:  93% (10068/10825)   Checking out files:  94% (10176/10825)   Checking out files:  94% (10223/10825)   Checking out files:  95% (10284/10825)   Checking out files:  96% (10392/10825)   Checking out files:  97% (10501/10825)   Checking out files:  97% (10603/10825)   Checking out files:  98% (10609/10825)   Checking out files:  99% (10717/10825)   Checking out files: 100% (10825/10825)   Checking out files: 100% (10825/10825), done.
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ ls -F
+[0m[01;32mgit_follow_along_script.txt[0m*  [34;42mlibgit2[0m/
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git sttusstus[1Ptusatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   git_follow_along_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mlibgit2/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat .git/[K/.gi[K[K[K[Kignore[K[Kre
+cat: .gitignore: No such file or directory
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ toch .gitignore
+
+Command 'toch' not found, did you mean:
+
+  command 'loch' from deb therion-viewer
+  command 'touch' from deb coreutils
+
+Try: sudo apt install <deb name>
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ toch .gitignore[1@u
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ notepad .git[K[K[Kgititgnore
+notepad: command not found
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ notepad .gititgnore[3Ptouch .gitignore[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat[C[C[C[C[C[C[C[C[C[C[C
+*.[oa]
+*~]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat .gitignore | head -n 3
+*.[oa]
+*~]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git diff
+[?1h=[1mdiff --git a/git_follow_along_script.txt b/git_follow_along_script.txt[m[m
+[1mindex 236b282..9aabc6c 100644[m[m
+[1m--- a/git_follow_along_script.txt[m[m
+[1m+++ b/git_follow_along_script.txt[m[m
+[36m@@ -13,3 +13,93 @@[m [mgit_follow_along_script.txt[m[m
+ exit[m[m
+ [m[m
+ Script done on 2021-01-21 14:01:09+0530[m[m
+[32m+[m[32mScript started on 2021-01-21 14:14:23+0530[m[m
+[32m+[m[32mTo run a command as administrator (user "root"), use "sudo <command>".[m[41m[7m^M[27m[m[m
+[32m+[m[32mSee "man sudo_root" for details.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git init[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /mnt/d/Learning/TA_MLE/git_lessons/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ ls -l -a[m[41m[7m^M[27m[m[m
+[32m+[m[32mtotal 4[m[41m[7m^M[27m[m[m
+[32m+[m[32mdrwxrwxrwx 1 tiger0326 tiger0326 4096 Jan 21 14:15 [0m[34;42m.[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32mdrwxrwxrwx 1 tiger0326 tiger0326 4096 Jan 21 13:58 [34;42m..[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32mdrwxrwxrwx 1 tiger0326 tiger0326 4096 Jan 21 14:15 [34;42m.git[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_script.txt[0m[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git add *.c[m[41m[7m^M[27m[m[m
+[32m+[m[32mfatal: pathspec '*.c' did not match any files[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git add *txt[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ [7m^G[27mgit add LICENSE[m[41m[7m^M[27m[m[m
+[32m+[m[32mfatal: pathspec 'LICENSE' did not match any files[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "Initial Project Version"[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m*** Please tell me who you are.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mRun[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m  git config --global user.email "you@example.com"[m[41m[7m^M[27m[m[m
+[32m+[m[32m  git config --global user.name "Your Name"[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mto set your account's default identity.[m[41m[7m^M[27m[m[m
+[32m+[m[32mOmit --global to set the identity only in this repository.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mfatal: empty ident name (for <tiger0326@TIGER0326.tigeranalytics.local>) not allowed[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git config --list[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27mcore.repositoryformatversion=0[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mcore.filemode=false[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mcore.bare=false[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git -[Kdiff -s
+[?1h=[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git diff -s[K-short
+[?1h=error: invalid option: --short[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git diff --help
+[?1049h[22;0;0t[?1h=GIT-DIFF(1)                                                               Git Manual                                                               GIT-DIFF(1)[m
+[m
+[1mNAME[0m[m
+       git-diff - Show changes between commits, commit and working tree, etc[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mdiff[24m [options] [<commit>] [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] --cached [<commit>] [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] <commit> <commit> [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] <blob> <blob>[m
+       [4mgit[24m [4mdiff[24m [options] [--no-index] [--] <path> <path>[m
+[m
+[1mDESCRIPTION[0m[m
+       Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes between two[m
+       blob objects, or changes between two files on disk.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] [--] [<path>...][m
+           This form is to view the changes you made relative to the index (staging area for the next commit). In other words, the differences are what you[m
+           [4mcould[24m tell Git to further add to the index but you still haven’t. You can stage these changes by using [1mgit-add[0m(1).[m
+[m
+       [4mgit[24m [4mdiff[24m --no-index [--options] [--] [<path>...][m
+           This form is to compare the given two paths on the filesystem. You can omit the [1m--no-index[0m option when running the command in a working tree[m
+           controlled by Git and at least one of the paths points outside the working tree, or when running the command outside a working tree controlled by[m
+           Git.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] --cached [<commit>] [--] [<path>...][m
+           This form is to view the changes you staged for the next commit relative to the named <commit>. Typically you would want comparison with the latest[m
+           commit, so if you do not give <commit>, it defaults to HEAD. If HEAD does not exist (e.g. unborn branches) and <commit> is not given, it shows all[m
+           staged changes. --staged is a synonym of --cached.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] <commit> [--] [<path>...][m
+           This form is to view the changes you have in your working tree relative to the named <commit>. You can use HEAD to compare it with the latest[m
+           commit, or a branch name to compare with the tip of a different branch.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] <commit> <commit> [--] [<path>...][m
+           This is to view the changes between two arbitrary <commit>.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] <commit>..<commit> [--] [<path>...][m
+           This is synonymous to the previous form. If <commit> on one side is omitted, it will have the same effect as using HEAD instead.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] <commit>...<commit> [--] [<path>...][m
+           This form is to view the changes on the branch containing and up to the second <commit>, starting at a common ancestor of both <commit>. "git diff[m
+[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K           A...B" is equivalent to "git diff $(git-merge-base A B) B". You can omit any one of <commit>, which has the same effect as using HEAD instead.[m
+[7m Manual page git-diff(1) line 2 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page git-diff(1) line 3 (press h for help or q to quit)[27m[K[K       Just in case if you are doing something exotic, it should be noted that all of the <commit> in the above description, except in the last two forms that[m
+[7m Manual page git-diff(1) line 4 (press h for help or q to quit)[27m[K[K       use ".." notations, can be any <tree>.[m
+[7m Manual page git-diff(1) line 5 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page git-diff(1) line 6 (press h for help or q to quit)[27m[K[K       For a more complete list of ways to spell <commit>, see "SPECIFYING REVISIONS" section in [1mgitrevisions[0m(7). However, "diff" is about comparing two[m
+[7m Manual page git-diff(1) line 7 (press h for help or q to quit)[27m[K[K       [4mendpoints[24m, not ranges, and the range notations ("<commit>..<commit>" and "<commit>...<commit>") do not mean a range as defined in the "SPECIFYING[m
+       RANGES" section in [1mgitrevisions[0m(7).[m
+[m
+       [4mgit[24m [4mdiff[24m [options] <blob> <blob>[m
+           This form is to view the differences between the raw contents of two blob objects.[m
+[m
+[1mOPTIONS[0m[m
+       -p, -u, --patch[m
+           Generate patch (see section on generating patches). This is the default.[m
+[m
+       -s, --no-patch[m
+           Suppress diff output. Useful for commands like [1mgit[0m [1mshow[0m that show the patch by default, or to cancel the effect of [1m--patch[0m.[m
+[m
+       -U<n>, --unified=<n>[m
+           Generate diffs with <n> lines of context instead of the usual three. Implies [1m-p[0m.[m
+[m
+       --raw[m
+           Generate the diff in raw format.[m
+[m
+       --patch-with-raw[m
+           Synonym for [1m-p[0m [1m--raw[0m.[m
+[m
+       --indent-heuristic[m
+           Enable the heuristic that shift diff hunk boundaries to make patches easier to read. This is the default.[m
+[m
+       --no-indent-heuristic[m
+           Disable the indent heuristic.[m
+[m
+       --minimal[m
+           Spend extra time to make sure the smallest possible diff is produced.[m
+[m
+       --patience[m
+           Generate a diff using the "patience diff" algorithm.[m
+[m
+       --histogram[m
+           Generate a diff using the "histogram diff" algorithm.[m
+[m
+       --anchored=<text>[m
+           Generate a diff using the "anchored diff" algorithm.[m
+[m
+           This option may be specified more than once.[m
+[m
+[7m Manual page git-diff(1) line 49 (press h for help or q to quit)[27m[K[K           If a line exists in both the source and destination, exists only once, and starts with this text, this algorithm attempts to prevent it from[m
+           appearing as a deletion or addition in the output. It uses the "patience diff" algorithm internally.[m
+[m
+       --diff-algorithm={patience|minimal|histogram|myers}[m
+           Choose a diff algorithm. The variants are as follows:[m
+[m
+           [1mdefault[0m, [1mmyers[0m[m
+               The basic greedy diff algorithm. Currently, this is the default.[m
+[m
+           [1mminimal[0m[m
+               Spend extra time to make sure the smallest possible diff is produced.[m
+[m
+           [1mpatience[0m[m
+               Use "patience diff" algorithm when generating patches.[m
+[m
+           [1mhistogram[0m[m
+               This algorithm extends the patience algorithm to "support low-occurrence common elements".[m
+[m
+           For instance, if you configured diff.algorithm variable to a non-default value and want to use the default one, then you have to use[m
+           [1m--diff-algorithm=default[0m option.[m
+[m
+       --stat[=<width>[,<name-width>[,<count>]]][m
+           Generate a diffstat. By default, as much space as necessary will be used for the filename part, and the rest for the graph part. Maximum width[m
+           defaults to terminal width, or 80 columns if not connected to a terminal, and can be overridden by [1m<width>[0m. The width of the filename part can be[m
+           limited by giving another width [1m<name-width>[0m after a comma. The width of the graph part can be limited by using [1m--stat-graph-width=<width>[0m (affects[m
+           all commands generating a stat graph) or by setting [1mdiff.statGraphWidth=<width>[0m (does not affect [1mgit[0m [1mformat-patch[0m). By giving a third parameter[m
+           [1m<count>[0m, you can limit the output to the first [1m<count>[0m lines, followed by [1m...[0m  if there are more.[m
+[m
+           These parameters can also be set individually with [1m--stat-width=<width>[0m, [1m--stat-name-width=<name-width>[0m and [1m--stat-count=<count>[0m.[m
+[m
+       --compact-summary[m
+           Output a condensed summary of extended header information such as file creations or deletions ("new" or "gone", optionally "+l" if it’s a symlink)[m
+           and mode changes ("+x" or "-x" for adding or removing executable bit respectively) in diffstat. The information is put betwen the filename part and[m
+           the graph part. Implies [1m--stat[0m.[m
+[m
+       --numstat[m
+           Similar to [1m--stat[0m, but shows number of added and deleted lines in decimal notation and pathname without abbreviation, to make it more machine[m
+           friendly. For binary files, outputs two [1m-[0m instead of saying [1m0[0m [1m0[0m.[m
+[m
+       --shortstat[m
+           Output only the last line of the [1m--stat[0m format containing total number of modified files, as well as number of added and deleted lines.[m
+[m
+[7m Manual page git-diff(1) line 91 (press h for help or q to quit)[27m[K[K       --dirstat[=<param1,param2,...>][m
+           Output the distribution of relative amount of changes for each sub-directory. The behavior of [1m--dirstat[0m can be customized by passing it a comma[m
+           separated list of parameters. The defaults are controlled by the [1mdiff.dirstat[0m configuration variable (see [1mgit-config[0m(1)). The following parameters[m
+           are available:[m
+[m
+           [1mchanges[0m[m
+               Compute the dirstat numbers by counting the lines that have been removed from the source, or added to the destination. This ignores the amount[m
+               of pure code movements within a file. In other words, rearranging lines in a file is not counted as much as other changes. This is the default[m
+               behavior when no parameter is given.[m
+[m
+           [1mlines[0m[m
+               Compute the dirstat numbers by doing the regular line-based diff analysis, and summing the removed/added line counts. (For binary files, count[m
+               64-byte chunks instead, since binary files have no natural concept of lines). This is a more expensive [1m--dirstat[0m behavior than the [1mchanges[0m[m
+               behavior, but it does count rearranged lines within a file as much as other changes. The resulting output is consistent with what you get from[m
+               the other [1m--*stat[0m options.[m
+[m
+           [1mfiles[0m[m
+               Compute the dirstat numbers by counting the number of files changed. Each changed file counts equally in the dirstat analysis. This is the[m
+               computationally cheapest [1m--dirstat[0m behavior, since it does not have to look at the file contents at all.[m
+[m
+           [1mcumulative[0m[m
+               Count changes in a child directory for the parent directory as well. Note that when using [1mcumulative[0m, the sum of the percentages reported may[m
+               exceed 100%. The default (non-cumulative) behavior can be specified with the [1mnoncumulative[0m parameter.[m
+[m
+           <limit>[m
+               An integer parameter specifies a cut-off percent (3% by default). Directories contributing less than this percentage of the changes are not[m
+               shown in the output.[m
+[m
+           Example: The following will count changed files, while ignoring directories with less than 10% of the total amount of changed files, and[m
+           accumulating child directory counts in the parent directories: [1m--dirstat=files,10,cumulative[0m.[m
+[m
+       --summary[m
+           Output a condensed summary of extended header information such as creations, renames and mode changes.[m
+[m
+       --patch-with-stat[m
+           Synonym for [1m-p[0m [1m--stat[0m.[m
+[m
+       -z[m
+           When [1m--raw[0m, [1m--numstat[0m, [1m--name-only[0m or [1m--name-status[0m has been given, do not munge pathnames and use NULs as output field terminators.[m
+[m
+           Without this option, pathnames with "unusual" characters are quoted as explained for the configuration variable [1mcore.quotePath[0m (see [1mgit-config[0m(1)).[m
+[m
+[7m Manual page git-diff(1) line 133 (press h for help or q to quit)[27m[K[K       --name-only[m
+           Show only names of changed files.[m
+[m
+       --name-status[m
+           Show only names and status of changed files. See the description of the [1m--diff-filter[0m option on what the status letters mean.[m
+[m
+       --submodule[=<format>][m
+           Specify how differences in submodules are shown. When specifying [1m--submodule=short[0m the [4mshort[24m format is used. This format just shows the names of[m
+           the commits at the beginning and end of the range. When [1m--submodule[0m or [1m--submodule=log[0m is specified, the [4mlog[24m format is used. This format lists the[m
+           commits in the range like [1mgit-submodule[0m(1) [1msummary[0m does. When [1m--submodule=diff[0m is specified, the [4mdiff[24m format is used. This format shows an inline[m
+           diff of the changes in the submodule contents between the commit range. Defaults to [1mdiff.submodule[0m or the [4mshort[24m format if the config option is[m
+           unset.[m
+[m
+       --color[=<when>][m
+           Show colored diff.  [1m--color[0m (i.e. without [4m=<when>[24m) is the same as [1m--color=always[0m.  [4m<when>[24m can be one of [1malways[0m, [1mnever[0m, or [1mauto[0m. It can be changed[m
+           by the [1mcolor.ui[0m and [1mcolor.diff[0m configuration settings.[m
+[m
+       --no-color[m
+           Turn off colored diff. This can be used to override configuration settings. It is the same as [1m--color=never[0m.[m
+[m
+       --color-moved[=<mode>][m
+           Moved lines of code are colored differently. It can be changed by the [1mdiff.colorMoved[0m configuration setting. The <mode> defaults to [4mno[24m if the[m
+           option is not given and to [4mzebra[24m if the option with no mode is given. The mode must be one of:[m
+[m
+           no[m
+               Moved lines are not highlighted.[m
+[m
+           default[m
+               Is a synonym for [1mzebra[0m. This may change to a more sensible mode in the future.[m
+[m
+           plain[m
+               Any line that is added in one location and was removed in another location will be colored with [4mcolor.diff.newMoved[24m. Similarly[m
+               [4mcolor.diff.oldMoved[24m will be used for removed lines that are added somewhere else in the diff. This mode picks up any moved line, but it is not[m
+               very useful in a review to determine if a block of code was moved without permutation.[m
+[m
+           zebra[m
+               Blocks of moved text of at least 20 alphanumeric characters are detected greedily. The detected blocks are painted using either the[m
+               [4mcolor.diff.{old,new}Moved[24m color or [4mcolor.diff.{old,new}MovedAlternative[24m. The change between the two colors indicates that a new block was[m
+               detected.[m
+[m
+           dimmed_zebra[m
+               Similar to [4mzebra[24m, but additional dimming of uninteresting parts of moved code is performed. The bordering lines of two adjacent blocks are[m
+[7m Manual page git-diff(1) line 175 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git diff --help[K[K[K[Knameon[K[K-only
+[?1h=git_follow_along_script.txt[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit [K[K[K[K[K[K[Kadd -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize     
