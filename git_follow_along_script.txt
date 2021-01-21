@@ -1,0 +1,15 @@
+Script started on 2021-01-21 14:00:05+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ mv [K[K[Kmv git git_follow_along.txt[K[K[K[K_script.txt
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ ls -F
+[0m[01;32mgit_follow_along_script.txt[0m*
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_script.txt 
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ echo git_follow_along_script.txt 
+git_follow_along_script.txt
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_script.txt | head -n 3
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ exit
+exit
+
+Script done on 2021-01-21 14:01:09+0530
