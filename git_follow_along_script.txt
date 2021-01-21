@@ -42084,4 +42084,51 @@ Changes not staged for commit:
 	[31mdeleted:    libgit2[m
 
 Untracked files:
-  (use "git add <file>..." to include in what will be 
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mdummy.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "rmove[K[K[K[Kemoed [K[K[Kv[K[K[K[K[Kcleaned directory"
+On branch master
+Changes not staged for commit:
+	[31mmodified:   git_follow_along_script.txt[m
+	[31mdeleted:    libgit2[m
+
+Untracked files:
+	[31mdummy.txt[m
+
+no changes added to commit
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git add -A
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git add -Acommit -m "cleaned directory"
+[master 82586a8] cleaned directory
+ 3 files changed, 41671 insertions(+), 2 deletions(-)
+ create mode 100644 dummy.txt
+ delete mode 160000 libgit2
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gti status
+
+Command 'gti' not found, did you mean:
+
+  command 'gtg' from deb gtg
+  command 'bti' from deb bti
+  command 'gtf' from deb xserver-xorg-core
+  command 'gmi' from deb gmailieer
+  command 'gsi' from deb gambc
+  command 'gt5' from deb gt5
+  command 'gt' from deb genometools
+  command 'gri' from deb gri
+  command 'ti' from deb ticgit
+  command 'gtv' from deb smpeg-gtv
+  command 'ghi' from deb ghi
+  command 'git' from deb git
+  command 'gli' from deb ruby-gli
+
+Try: sudo apt install <deb name>
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ s[Kexxi[K[Kit
+exit
+
+Script done on 2021-01-21 19:43:24+0530
