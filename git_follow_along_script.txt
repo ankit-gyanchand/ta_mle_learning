@@ -43067,3 +43067,120 @@ Date:   Thu Jan 21 19:30:42 2021 +0530[m
 exit
 
 Script done on 2021-01-24 21:27:21+0530
+Script started on 2021-01-26 15:15:52+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote add origin https://github.com/ankit-gyanchand/ta_mle_learning.git
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote
+origin
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote -v
+origin	https://github.com/ankit-gyanchand/ta_mle_learning.git (fetch)
+origin	https://github.com/ankit-gyanchand/ta_mle_learning.git (push)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git push -u origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/ankit-gyanchand/ta_mle_learning.git'
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git branch -M main
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git branch -M main[5@push -u origin[C[C[C[C[C
+Username for 'https://github.com': ankit-gyanchand
+Password for 'https://ankit-gyanchand@github.com': 
+Counting objects: 21, done.
+Delta compression using up to 8 threads.
+Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
+Writing objects:   4% (1/21)   Writing objects:   9% (2/21)   Writing objects:  14% (3/21)   Writing objects:  19% (4/21)   Writing objects:  23% (5/21)   Writing objects:  28% (6/21)   Writing objects:  33% (7/21)   Writing objects:  38% (8/21)   Writing objects:  42% (9/21)   Writing objects:  47% (10/21)   Writing objects:  52% (11/21)   Writing objects:  57% (12/21)   Writing objects:  61% (13/21)   Writing objects:  66% (14/21)   Writing objects:  71% (15/21)   Writing objects:  76% (16/21)   Writing objects:  80% (17/21)   Writing objects:  85% (18/21)   Writing objects:  90% (19/21)   Writing objects:  95% (20/21)   Writing objects: 100% (21/21)   Writing objects: 100% (21/21), 202.25 KiB | 1.93 MiB/s, done.
+Total 21 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), done.[K
+To https://github.com/ankit-gyanchand/ta_mle_learning.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gti [K[K[Kit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote
+origin
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote -v
+origin	https://github.com/ankit-gyanchand/ta_mle_learning.git (fetch)
+origin	https://github.com/ankit-gyanchand/ta_mle_learning.git (push)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote sow o[K[K[K[Khow origin
+* remote origin
+  Fetch URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  Push  URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remove [K[K[Kte rmov[K[K[Kemove origin
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remove [K[Kte[K[K[Kte -v
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remo[K[K[K[Kpush -u origin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git push -u origin[5Premote -vremove origin[2Pshow[C[C[C[C[C[C[C-v[K[Kstatuspush -u origin main[5Pbranch -M[C[C[C[C[C[5@push -u origin[C[C[C[C[C[10Premote -v[K add origin https://github.com/ankit-gyanchand/ta_mle_learning.git
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote add origin https://github.com/ankit-gyanchand/ta_mle_learning.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin[Kremote add origin https://github.com/ankit-gyanchand/ta_mle_learning.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit remote add origin https://github.com/ankit-gyanchand/ta_mle_learning.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin[K[5Premote -vremove origin[2Pshow[C[C[C[C[C[C[C-v[K[Kstatuspush -u origin main[5Pbranch -M[C[C[C[C[C
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git branch -M mainremote add origin https://github.com/ankit-gyanchand/ta_mle_learning.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[K[Kgit branch -M mainremote add origin https://github.com/ankit-gyanchand/ta_mle_learning.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin[K[5Premote -vpush -u origin[5Premote -vpush -u origin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git push --set-upstream origin main
+Username for 'https://github.com': ankit. -gyanchad nd
+Password for 'https://ankit-gyanchand@github.com': 
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ i[Kgit remote
+origin
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remove[K[Kte show
+origin
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  Push  URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote rename origin ta_mle
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote rename origin ta_mle[9Pshow origin[K originrename origin ta_mle[Kgit remote rename origin ta_mle[9Pshow origin[K[Kpush --set-upstream origin mainremote[K show originrename origin ta_mle[9Pshow origin
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote show origin[K[K[K[K[K[K[K[K[K[K[K[K
+ta_mle
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote show origin[K[K[K[K[K[Kta_mle
+* remote ta_mle
+  Fetch URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  Push  URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ i[Kgit remote rename ta_mle origin
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remote rename ta_mle origin[9Pshow ta_mlerename ta_mle origin[9Pshow ta_mle[K[K[K[K[K[Korigin
+* remote origin
+  Fetch URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  Push  URL: https://github.com/ankit-gyanchand/ta_mle_learning.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git
