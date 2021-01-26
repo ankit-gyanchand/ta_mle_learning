@@ -42132,3 +42132,938 @@ nothing to commit, working tree clean
 exit
 
 Script done on 2021-01-21 19:43:24+0530
+Script started on 2021-01-21 19:43:28+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gti[K[Kit add git_follow_along_script.txt git_follow_along_script.txt git_follow_along_script.txt git_follow_alongg_script.txt [A]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add git_follow_along_script.txt 
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git stats[Kus
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   git_follow_along_script.txt[m
+
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gti[K[Kit commit -m "commit 1"
+[master 336d749] commit 1
+ 1 file changed, 48 insertions(+), 1 deletion(-)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "commit 1"status[K
+On branch master
+nothing to commit, working tree clean
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git status[K[K[K[K[K[Kdiff
+[?1h=[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git a[Ksi[Kd[K[Kdiff
+[?1h=[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gi[K[Kgit diff
+[?1h=[1mdiff --git a/dummy.txt b/dummy.txt[m[m
+[1mindex e69de29..5f93d5f 100644[m[m
+[1m--- a/dummy.txt[m[m
+[1m+++ b/dummy.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mthis line 1[m[41m[7m^M[27m[m[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git a[Kcommit -a -m "[K'this [K[K[K[K[Kadded text to dummy textx'[K[K'
+[master ae61199] added text to dummy text
+ 1 file changed, 1 insertion(+)
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ rm dummy.txt 
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git git[K[K[Kstatus
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    dummy.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log
+[?1h=[33mcommit ae61199a4af1d90ab061f418ab3cdd37e6c58c46[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 20:21:21 2021 +0530[m
+[m
+    added text to dummy text[m
+[m
+[33mcommit 336d7494b8cf87558ab9bbb6043fdfb2663373d9[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:50:08 2021 +0530[m
+[m
+    commit 1[m
+[m
+[33mcommit 82586a80297106285bf16168c3a3914500f3fc22[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:42:45 2021 +0530[m
+[m
+    cleaned directory[m
+[m
+[33mcommit 92fb31527a4d6976cdbad48a5e1f6d509016eb4f[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:30:42 2021 +0530[m
+[m
+    removed embedded git repository[m
+[m
+[33mcommit 17823e3f236825f1f68d82d35e3d9eba507a4bea[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 14:41:10 2021 +0530[m
+[m
+    Initial Project Version[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log -p
+[?1h=[33mcommit ae61199a4af1d90ab061f418ab3cdd37e6c58c46[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 20:21:21 2021 +0530[m
+[m
+    added text to dummy text[m
+[m
+[1mdiff --git a/dummy.txt b/dummy.txt[m[m
+[1mindex e69de29..5f93d5f 100644[m[m
+[1m--- a/dummy.txt[m[m
+[1m+++ b/dummy.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mthis line 1[m[41m[7m^M[27m[m[m
+[m
+[33mcommit 336d7494b8cf87558ab9bbb6043fdfb2663373d9[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:50:08 2021 +0530[m
+[m
+    commit 1[m
+[m
+[1mdiff --git a/git_follow_along_script.txt b/git_follow_along_script.txt[m[m
+[1mindex bfa2d2b..fce2644 100644[m[m
+[1m--- a/git_follow_along_script.txt[m[m
+[1m+++ b/git_follow_along_script.txt[m[m
+[36m@@ -42084,4 +42084,51 @@[m [mChanges not staged for commit:[m[m
+        [31mdeleted:    libgit2[m[m[m
+ [m[m
+ Untracked files:[m[m
+[31m-  (use "git add <file>..." to include in what will be [m[m
+\ No newline at end of file[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mdummy.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "cleaned directory"[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_follow_along_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mdeleted:    libgit2[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mdummy.txt[m[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log -p -2
+[?1h=[33mcommit ae61199a4af1d90ab061f418ab3cdd37e6c58c46[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 20:21:21 2021 +0530[m
+[m
+    added text to dummy text[m
+[m
+[1mdiff --git a/dummy.txt b/dummy.txt[m[m
+[1mindex e69de29..5f93d5f 100644[m[m
+[1m--- a/dummy.txt[m[m
+[1m+++ b/dummy.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mthis line 1[m[41m[7m^M[27m[m[m
+[m
+[33mcommit 336d7494b8cf87558ab9bbb6043fdfb2663373d9[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:50:08 2021 +0530[m
+[m
+    commit 1[m
+[m
+[1mdiff --git a/git_follow_along_script.txt b/git_follow_along_script.txt[m[m
+[1mindex bfa2d2b..fce2644 100644[m[m
+[1m--- a/git_follow_along_script.txt[m[m
+[1m+++ b/git_follow_along_script.txt[m[m
+[36m@@ -42084,4 +42084,51 @@[m [mChanges not staged for commit:[m[m
+        [31mdeleted:    libgit2[m[m[m
+ [m[m
+ Untracked files:[m[m
+[31m-  (use "git add <file>..." to include in what will be [m[m
+\ No newline at end of file[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mdummy.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "cleaned directory"[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_follow_along_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mdeleted:    libgit2[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mdummy.txt[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mno changes added to commit[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git add -A[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "cleaned directory"[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[master 82586a8] cleaned directory[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m 3 files changed, 41671 insertions(+), 2 deletions(-)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m create mode 100644 dummy.txt[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m delete mode 160000 libgit2[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gti status[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mCommand 'gti' not found, did you mean:[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gtg' from deb gtg[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'bti' from deb bti[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gtf' from deb xserver-xorg-core[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gmi' from deb gmailieer[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gsi' from deb gambc[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gt5' from deb gt5[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gt' from deb genometools[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gri' from deb gri[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'ti' from deb ticgit[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gtv' from deb smpeg-gtv[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'ghi' from deb ghi[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'git' from deb git[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  command 'gli' from deb ruby-gli[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mTry: sudo apt install <deb name>[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git status[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mnothing to commit, working tree clean[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ exit[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mexit[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32mScript done on 2021-01-21 19:43:24+0530[m[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log -p -2 -stats
+fatal: unrecognized argument: -stats
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log -p -2 -stats-stats
+fatal: unrecognized argument: --stats
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log -p -2 --stats[1P--stats[1P--stats[C[1Pstats[C[C[C[C[C[C[C -2
+fatal: unrecognized argument: --stats
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log -p --stats -22 --stats[1Pstats[K
+fatal: unrecognized argument: -stat
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log -p -2 -stat-stat
+[?1h=[33mcommit ae61199a4af1d90ab061f418ab3cdd37e6c58c46[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 20:21:21 2021 +0530[m
+[m
+    added text to dummy text[m
+---[m
+ dummy.txt | 1 [32m+[m[m
+ 1 file changed, 1 insertion(+)[m
+[m
+[1mdiff --git a/dummy.txt b/dummy.txt[m[m
+[1mindex e69de29..5f93d5f 100644[m[m
+[1m--- a/dummy.txt[m[m
+[1m+++ b/dummy.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mthis line 1[m[41m[7m^M[27m[m[m
+[m
+[33mcommit 336d7494b8cf87558ab9bbb6043fdfb2663373d9[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:50:08 2021 +0530[m
+[m
+    commit 1[m
+---[m
+ git_follow_along_script.txt | 49 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m[m
+ 1 file changed, 48 insertions(+), 1 deletion(-)[m
+[m
+[1mdiff --git a/git_follow_along_script.txt b/git_follow_along_script.txt[m[m
+[1mindex bfa2d2b..fce2644 100644[m[m
+[1m--- a/git_follow_along_script.txt[m[m
+[1m+++ b/git_follow_along_script.txt[m[m
+[36m@@ -42084,4 +42084,51 @@[m [mChanges not staged for commit:[m[m
+        [31mdeleted:    libgit2[m[m[m
+ [m[m
+ Untracked files:[m[m
+[31m-  (use "git add <file>..." to include in what will be [m[m
+\ No newline at end of file[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mdummy.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[7m^M[27m[m[m
+[32m+[m[32m0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[7m^G[27m[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git commit -m "cleaned directory"[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+:[K[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty
+[?1h=[33mcommit ae61199a4af1d90ab061f418ab3cdd37e6c58c46[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 20:21:21 2021 +0530[m
+[m
+    added text to dummy text[m
+[m
+[33mcommit 336d7494b8cf87558ab9bbb6043fdfb2663373d9[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:50:08 2021 +0530[m
+[m
+    commit 1[m
+[m
+[33mcommit 82586a80297106285bf16168c3a3914500f3fc22[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:42:45 2021 +0530[m
+[m
+    cleaned directory[m
+[m
+[33mcommit 92fb31527a4d6976cdbad48a5e1f6d509016eb4f[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:30:42 2021 +0530[m
+[m
+    removed embedded git repository[m
+[m
+[33mcommit 17823e3f236825f1f68d82d35e3d9eba507a4bea[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 14:41:10 2021 +0530[m
+[m
+    Initial Project Version[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty==oneline
+fatal: invalid --pretty format: =oneline
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty==oneline[1Poneline
+[?1h=[33mae61199a4af1d90ab061f418ab3cdd37e6c58c46[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m added text to dummy text[m
+[33m336d7494b8cf87558ab9bbb6043fdfb2663373d9[m commit 1[m
+[33m82586a80297106285bf16168c3a3914500f3fc22[m cleaned directory[m
+[33m92fb31527a4d6976cdbad48a5e1f6d509016eb4f[m removed embedded git repository[m
+[33m17823e3f236825f1f68d82d35e3d9eba507a4bea[m Initial Project Version[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=oneline[K[K[K[K[K[K[K[K:format:[1Pformat:=format:[C[C[C[C[C[C[C''%'h' '-' '
+HEAD     master   
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%h - '['B'[8P=oneline[B[Kgit log --pretty=format:''%'h'
+[?1h=ae61199[m
+336d749[m
+82586a8[m
+92fb315[m
+17823e3[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%h'[1P't'
+[?1h=cc4ab06[m
+36d8c7d[m
+3861174[m
+af66fdb[m
+7f52afe[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%t'[1P'T'
+[?1h=cc4ab0634e2fa7e15d1245750640688ef2879d62[m
+36d8c7d7619b07f1b92692939d9f4dc7f400d399[m
+38611748a95ca5493117ed0704a81eaefbe5137b[m
+af66fdb760be21ee2e459d27c36b5fdcff59f2e2[m
+7f52afe12756d3d42ae56a0e09213c56b13e0bd9[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%T'[1P'P'
+[?1h=336d7494b8cf87558ab9bbb6043fdfb2663373d9[m
+82586a80297106285bf16168c3a3914500f3fc22[m
+92fb31527a4d6976cdbad48a5e1f6d509016eb4f[m
+17823e3f236825f1f68d82d35e3d9eba507a4bea[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%P'[1P'c'n'
+[?1h=Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%cn'[1Pn'an'
+[?1h=Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+Ankit Gyan Chand[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%an'[1P'[1P'c'r'
+[?1h=45 minutes ago[m
+77 minutes ago[m
+84 minutes ago[m
+2 hours ago[m
+6 hours ago[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%cr'[1P'[1P'a'
+[?1h=%a[m
+%a[m
+%a[m
+%a[m
+%a[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%a'[1P's'
+[?1h=added text to dummy text[m
+commit 1[m
+cleaned directory[m
+removed embedded git repository[m
+Initial Project Version[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --pretty=format:'%s'a'cr'an'cn'[1PP'cn'an'cr'[B[3Pa's'[Kgit log --pretty=format:'%s'[1P'h' '-' '%''[K[Kgit log --pretty=format:'%h - %an - %cr - %s'
+[?1h=ae61199 - Ankit Gyan Chand - 51 minutes ago - added text to dummy text[m
+336d749 - Ankit Gyan Chand - 82 minutes ago - commit 1[m
+82586a8 - Ankit Gyan Chand - 89 minutes ago - cleaned directory[m
+92fb315 - Ankit Gyan Chand - 2 hours ago - removed embedded git repository[m
+17823e3 - Ankit Gyan Chand - 7 hours ago - Initial Project Version[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --since=1.minute
+[?1h=[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --since=1.minute[K[K[K[K[K[Khour
+[?1h=[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git log --since=1.hour[1P.hour2.hour
+[?1h=[33mcommit ae61199a4af1d90ab061f418ab3cdd37e6c58c46[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 20:21:21 2021 +0530[m
+[m
+    added text to dummy text[m
+[m
+[33mcommit 336d7494b8cf87558ab9bbb6043fdfb2663373d9[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:50:08 2021 +0530[m
+[m
+    commit 1[m
+[m
+[33mcommit 82586a80297106285bf16168c3a3914500f3fc22[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:42:45 2021 +0530[m
+[m
+    cleaned directory[m
+[m
+[33mcommit 92fb31527a4d6976cdbad48a5e1f6d509016eb4f[m[m
+Author: Ankit Gyan Chand <ankit.gyancand@tigeranalytics.com>[m
+Date:   Thu Jan 21 19:30:42 2021 +0530[m
+[m
+    removed embedded git repository[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ grep 'hello[K[K[K[K[Kscript' *.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ mv [K[K[Kmv git git_follow_along.txt[K[K[K[K_[01;31m[Kscript[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_[01;31m[Kscript[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ echo git_follow_along_[01;31m[Kscript[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[Kgit_follow_along_[01;31m[Kscript[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_[01;31m[Kscript[m[K.txt | head -n 3
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K create mode 100644 git_follow_along_[01;31m[Kscript[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m*  [34;42mlibgit2[0m/
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K	[31mmodified:   git_follow_along_[01;31m[Kscript[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[?1h=[1mdiff --git a/git_follow_along_[01;31m[Kscript[m[K.txt b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[36m@@ -13,3 +13,93 @@[m [mgit_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[32m+[m[32m-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m[m[41m[7m^M[27m[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[7m Manual page git-diff(1) line 3 (press h for help or q to quit)[27m[K[K       Just in case if you are doing something exotic, it should be noted that all of the <commit> in the above de[01;31m[Kscript[m[Kion, except in the last two forms that[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K           Show only names and status of changed files. See the de[01;31m[Kscript[m[Kion of the [1m--diff-filter[0m option on what the status letters mean.[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[?1h=git_follow_along_[01;31m[Kscript[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m*  [34;42mlibgit2[0m/
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K	[32mmodified:   git_follow_along_[01;31m[Kscript[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/dash python/Dash-by-Plotly/.git/de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/docs/js/custom[01;31m[Kscript[m[Ks.js
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/fastai-video-browser/src/components/Tran[01;31m[Kscript[m[KBrowser.jsx
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks/tran[01;31m[Kscript[m[K-1-1.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks/tran[01;31m[Kscript[m[K-1-2.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks/tran[01;31m[Kscript[m[K-1-3.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks/tran[01;31m[Kscript[m[K-1-4.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks/tran[01;31m[Kscript[m[K-1-5.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks/tran[01;31m[Kscript[m[K-1-6.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[Kscript[m[Ks/tran[01;31m[Kscript[m[K-1-7.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/git_test_project/text_project/.git/de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/kaggle - house_prices/data_de[01;31m[Kscript[m[Kion.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/plotly & dash course/my_work/dash_app_[01;31m[Kscript[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/plotly & dash course/Plotly-Dashboards-with-Dash/.git/de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/sandeep_model_testing_[01;31m[Kscript[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/.git/de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/git_follow_along_[01;31m[Kscript[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[Kscript[m[Kion.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[Kscript[m[KionAttribute.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[Kscript[m[KionAttribute.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[Kscript[m[Kor.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[Kscript[m[Kor.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[Kscript[m[Kor.pb.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[Kscript[m[Kor.pb.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[Kscript[m[Kor_database.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[Kscript[m[Kor_database.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/dnn/dnn_java[01;31m[Kscript[m[K
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/dnn/dnn_java[01;31m[Kscript[m[K/dnn_java[01;31m[Kscript[m[K.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[Kscript[m[Kion/feature_de[01;31m[Kscript[m[Kion.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[Kscript[m[Kion/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[Kscript[m[Kion/images/Feature_De[01;31m[Kscript[m[Kion_BruteForce_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/images/Feature_De[01;31m[Kscript[m[Kion_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[Kscript[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[Kscript[m[Kors/Bounding_Rects_Circles_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[Kscript[m[Kors/Bounding_Rotated_Ellipses_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[Kscript[m[Kors/Find_Contours_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[Kscript[m[Kors/Hull_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[Kscript[m[Kors/Moments_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[Kscript[m[Kors/Point_Polygon_Test_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rects_circles/bounding_rects_circles.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rects_circles/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rects_circles/images/Bounding_Rects_Circles_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rects_circles/images/Bounding_Rects_Circles_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rotated_ellipses/bounding_rotated_ellipses.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rotated_ellipses/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rotated_ellipses/images/Bounding_Rotated_Ellipses_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/bounding_rotated_ellipses/images/Bounding_Rotated_Ellipses_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/find_contours/find_contours.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/find_contours/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/find_contours/images/Find_Contours_Original_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/find_contours/images/Find_Contours_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/hull/hull.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/hull/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/hull/images/Hull_Original_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/hull/images/Hull_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/moments/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/moments/images/Moments_Result1.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/moments/images/Moments_Result2.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/moments/images/Moments_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/moments/moments.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/point_polygon_test/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/point_polygon_test/images/Point_Polygon_Test_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/point_polygon_test/images/Point_Polygon_Test_Source_Image.png
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[Kscript[m[Kors/point_polygon_test/point_polygon_test.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BRIEFDe[01;31m[Kscript[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceDe[01;31m[Kscript[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceHammingDe[01;31m[Kscript[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceHammingLUTDe[01;31m[Kscript[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceL1De[01;31m[Kscript[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceSL2De[01;31m[Kscript[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/FlannBasedDe[01;31m[Kscript[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/ORBDe[01;31m[Kscript[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/SIFTDe[01;31m[Kscript[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/SURFDe[01;31m[Kscript[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/test/test_de[01;31m[Kscript[m[Kors_invariance.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/test/test_de[01;31m[Kscript[m[Kors_regression.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/objdetect/misc/java/test/HOGDe[01;31m[Kscript[m[KorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[Kscript[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[Kscript[m[Ks/deb_package_check
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[Kscript[m[Ks/execstack_check
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[Kscript[m[Ks/functions
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[Kscript[m[Ks/properties
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[Kscript[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[Kscript[m[Ks/pylintrc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[Kscript[m[Ks/valgrind.supp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[Kscript[m[Ks/valgrind_3rdparty.supp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/features2D/feature_de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/features2D/feature_de[01;31m[Kscript[m[Kion/SURF_matching_Demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/findContours_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/generalContours_demo1.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/generalContours_demo2.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/hull_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/moments_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/pointPolygonTest_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/features2D/feature_de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/features2D/feature_de[01;31m[Kscript[m[Kion/SURFMatchingDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rects_circles/GeneralContoursDemo1.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rotated_ellipses/GeneralContoursDemo2.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/find_contours/FindContoursDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/hull/HullDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/moments/MomentsDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/point_polygon_test/PointPolygonTestDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/features2D/feature_de[01;31m[Kscript[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/features2D/feature_de[01;31m[Kscript[m[Kion/SURF_matching_Demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rects_circles/generalContours_demo1.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/bounding_rotated_ellipses/generalContours_demo2.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/find_contours/findContours_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/hull/hull_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/moments/moments_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[Kscript[m[Kors/point_polygon_test/pointPolygonTest_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/data_extraction_[01;31m[Kscript[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/MTR/data_for_generic_model/Parameter_De[01;31m[Kscript[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN1_Data_De[01;31m[Kscript[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN2_Data_De[01;31m[Kscript[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN3_Data_De[01;31m[Kscript[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN1_Data_De[01;31m[Kscript[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN2_Data_De[01;31m[Kscript[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN3_Data_De[01;31m[Kscript[m[Kion - Copy.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN3_Data_De[01;31m[Kscript[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_2/blt_gbf_project/blt_gbf_sensor_id_to_de[01;31m[Kscript[m[Kion_mapping.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[Kscript[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[Kscript[m[Ks/1_GQ41_data_preprocessing&Report_generation.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[Kscript[m[Ks/2_GQ41_data_preprocessing.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[Kscript[m[Ks/3_GQ41_anomaly.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[Kscript[m[Ks/4_GQ41_forcasting.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./TATA/STINT_2/python_protection_test/sandip_python_protection_test/run_[01;31m[Kscript[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Ventas/Ad-hoc/DocumentationConfigVariables/Master Service Config De[01;31m[Kscript[m[Kion.xlsx
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Ventas/Ad-hoc/DocumentationConfigVariables/NIC Config De[01;31m[Kscript[m[Kion.xlsx
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Ventas/Ad-hoc/model_testing_[01;31m[Kscript[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/git_follow_along_[01;31m[Kscript[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/git_follow_along_[01;31m[Kscript[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[0m[01;32mdummy.txt[0m*  [01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[0m[01;32mdummy.txt[0m  [01;32mgit_follow_along_[01;31m[Kscript[m[K.txt[0m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K	[31mmodified:   git_follow_along_[01;31m[Kscript[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K	[31mmodified:   git_follow_along_[01;31m[Kscript[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gti[K[Kit add git_follow_along_[01;31m[Kscript[m[K.txt git_follow_along_[01;31m[Kscript[m[K.txt git_follow_along_[01;31m[Kscript[m[K.txt git_follow_alongg_[01;31m[Kscript[m[K.txt [A]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ [K
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add git_follow_along_[01;31m[Kscript[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K	[32mmodified:   git_follow_along_[01;31m[Kscript[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1mdiff --git a/git_follow_along_[01;31m[Kscript[m[K.txt b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[32m+[m       [32m[31mmodified:   git_follow_along_[01;31m[Kscript[m[K.txt[m[m[41m[7m^M[27m[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1mdiff --git a/git_follow_along_[01;31m[Kscript[m[K.txt b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[32m+[m       [32m[31mmodified:   git_follow_along_[01;31m[Kscript[m[K.txt[m[m[41m[7m^M[27m[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K git_follow_along_[01;31m[Kscript[m[K.txt | 49 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1mdiff --git a/git_follow_along_[01;31m[Kscript[m[K.txt b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[Kscript[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ grep 'hello[K[K[K[K[K[01;31m[Kscript[m[K' *.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ mv [K[K[Kmv git git_follow_along.txt[K[K[K[K_[01;31m[K[01;31m[Kscript[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ echo git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt | head -n 3
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K create mode 100644 git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m*  [34;42mlibgit2[0m/
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K	[31mmodified:   git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[?1h=[1mdiff --git a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[36m@@ -13,3 +13,93 @@[m [mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[32m+[m[32m-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m[m[41m[7m^M[27m[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[7m Manual page git-diff(1) line 3 (press h for help or q to quit)[27m[K[K       Just in case if you are doing something exotic, it should be noted that all of the <commit> in the above de[01;31m[K[01;31m[Kscript[m[K[m[Kion, except in the last two forms that[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K           Show only names and status of changed files. See the de[01;31m[K[01;31m[Kscript[m[K[m[Kion of the [1m--diff-filter[0m option on what the status letters mean.[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[?1h=git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m*  [34;42mlibgit2[0m/
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K	[32mmodified:   git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/dash python/Dash-by-Plotly/.git/de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/docs/js/custom[01;31m[K[01;31m[Kscript[m[K[m[Ks.js
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/fastai-video-browser/src/components/Tran[01;31m[K[01;31m[Kscript[m[K[m[KBrowser.jsx
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks/tran[01;31m[K[01;31m[Kscript[m[K[m[K-1-1.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks/tran[01;31m[K[01;31m[Kscript[m[K[m[K-1-2.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks/tran[01;31m[K[01;31m[Kscript[m[K[m[K-1-3.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks/tran[01;31m[K[01;31m[Kscript[m[K[m[K-1-4.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks/tran[01;31m[K[01;31m[Kscript[m[K[m[K-1-5.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks/tran[01;31m[K[01;31m[Kscript[m[K[m[K-1-6.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[Kscript[m[K[m[Ks/tran[01;31m[K[01;31m[Kscript[m[K[m[K-1-7.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/git_test_project/text_project/.git/de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/kaggle - house_prices/data_de[01;31m[K[01;31m[Kscript[m[K[m[Kion.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/plotly & dash course/my_work/dash_app_[01;31m[K[01;31m[Kscript[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/plotly & dash course/Plotly-Dashboards-with-Dash/.git/de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/sandeep_model_testing_[01;31m[K[01;31m[Kscript[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/.git/de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[K[01;31m[Kscript[m[K[m[Kion.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[K[01;31m[Kscript[m[K[m[KionAttribute.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[K[01;31m[Kscript[m[K[m[KionAttribute.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[Kscript[m[K[m[Kor.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[Kscript[m[K[m[Kor.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[Kscript[m[K[m[Kor.pb.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[Kscript[m[K[m[Kor.pb.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[Kscript[m[K[m[Kor_database.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[Kscript[m[K[m[Kor_database.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/dnn/dnn_java[01;31m[K[01;31m[Kscript[m[K[m[K
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/dnn/dnn_java[01;31m[K[01;31m[Kscript[m[K[m[K/dnn_java[01;31m[K[01;31m[Kscript[m[K[m[K.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion/images/Feature_De[01;31m[K[01;31m[Kscript[m[K[m[Kion_BruteForce_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/images/Feature_De[01;31m[K[01;31m[Kscript[m[K[m[Kion_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/Bounding_Rects_Circles_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/Bounding_Rotated_Ellipses_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/Find_Contours_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/Hull_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/Moments_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/Point_Polygon_Test_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles/bounding_rects_circles.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles/images/Bounding_Rects_Circles_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles/images/Bounding_Rects_Circles_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses/bounding_rotated_ellipses.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses/images/Bounding_Rotated_Ellipses_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses/images/Bounding_Rotated_Ellipses_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours/find_contours.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours/images/Find_Contours_Original_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours/images/Find_Contours_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull/hull.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull/images/Hull_Original_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull/images/Hull_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments/images/Moments_Result1.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments/images/Moments_Result2.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments/images/Moments_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments/moments.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test/images/Point_Polygon_Test_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test/images/Point_Polygon_Test_Source_Image.png
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test/point_polygon_test.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BRIEFDe[01;31m[K[01;31m[Kscript[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceDe[01;31m[K[01;31m[Kscript[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceHammingDe[01;31m[K[01;31m[Kscript[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceHammingLUTDe[01;31m[K[01;31m[Kscript[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceL1De[01;31m[K[01;31m[Kscript[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceSL2De[01;31m[K[01;31m[Kscript[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/FlannBasedDe[01;31m[K[01;31m[Kscript[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/ORBDe[01;31m[K[01;31m[Kscript[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/SIFTDe[01;31m[K[01;31m[Kscript[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/SURFDe[01;31m[K[01;31m[Kscript[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/test/test_de[01;31m[K[01;31m[Kscript[m[K[m[Kors_invariance.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/test/test_de[01;31m[K[01;31m[Kscript[m[K[m[Kors_regression.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/objdetect/misc/java/test/HOGDe[01;31m[K[01;31m[Kscript[m[K[m[KorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[Kscript[m[K[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[Kscript[m[K[m[Ks/deb_package_check
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[Kscript[m[K[m[Ks/execstack_check
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[Kscript[m[K[m[Ks/functions
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[Kscript[m[K[m[Ks/properties
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[Kscript[m[K[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[Kscript[m[K[m[Ks/pylintrc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[Kscript[m[K[m[Ks/valgrind.supp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[Kscript[m[K[m[Ks/valgrind_3rdparty.supp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/features2D/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/features2D/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion/SURF_matching_Demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/findContours_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/generalContours_demo1.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/generalContours_demo2.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/pointPolygonTest_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/features2D/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/features2D/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion/SURFMatchingDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles/GeneralContoursDemo1.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses/GeneralContoursDemo2.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours/FindContoursDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull/HullDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments/MomentsDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test/PointPolygonTestDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/features2D/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/features2D/feature_de[01;31m[K[01;31m[Kscript[m[K[m[Kion/SURF_matching_Demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rects_circles/generalContours_demo1.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/bounding_rotated_ellipses/generalContours_demo2.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/find_contours/findContours_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/hull/hull_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/moments/moments_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[Kscript[m[K[m[Kors/point_polygon_test/pointPolygonTest_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/data_extraction_[01;31m[K[01;31m[Kscript[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/MTR/data_for_generic_model/Parameter_De[01;31m[K[01;31m[Kscript[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN1_Data_De[01;31m[K[01;31m[Kscript[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN2_Data_De[01;31m[K[01;31m[Kscript[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN3_Data_De[01;31m[K[01;31m[Kscript[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN1_Data_De[01;31m[K[01;31m[Kscript[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN2_Data_De[01;31m[K[01;31m[Kscript[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN3_Data_De[01;31m[K[01;31m[Kscript[m[K[m[Kion - Copy.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Processed Data/CA_FAN3_Data_De[01;31m[K[01;31m[Kscript[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_2/blt_gbf_project/blt_gbf_sensor_id_to_de[01;31m[K[01;31m[Kscript[m[K[m[Kion_mapping.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[K[01;31m[Kscript[m[K[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[K[01;31m[Kscript[m[K[m[Ks/1_GQ41_data_preprocessing&Report_generation.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[K[01;31m[Kscript[m[K[m[Ks/2_GQ41_data_preprocessing.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[K[01;31m[Kscript[m[K[m[Ks/3_GQ41_anomaly.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_2/GQ41/3.WORKSPACE/Ankit/original_[01;31m[K[01;31m[Kscript[m[K[m[Ks/4_GQ41_forcasting.ipynb
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_2/python_protection_test/sandip_python_protection_test/run_[01;31m[K[01;31m[Kscript[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Ventas/Ad-hoc/DocumentationConfigVariables/Master Service Config De[01;31m[K[01;31m[Kscript[m[K[m[Kion.xlsx
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Ventas/Ad-hoc/DocumentationConfigVariables/NIC Config De[01;31m[K[01;31m[Kscript[m[K[m[Kion.xlsx
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Ventas/Ad-hoc/model_testing_[01;31m[K[01;31m[Kscript[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[0m[01;32mdummy.txt[0m*  [01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[0m[01;32mdummy.txt[0m  [01;32mgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[0m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K	[31mmodified:   git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K	[31mmodified:   git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ gti[K[Kit add git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt git_follow_alongg_[01;31m[K[01;31m[Kscript[m[K[m[K.txt [A]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ [K
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K	[32mmodified:   git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1mdiff --git a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[32m+[m       [32m[31mmodified:   git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m[41m[7m^M[27m[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1mdiff --git a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[32m+[m       [32m[31mmodified:   git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m[41m[7m^M[27m[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt | 49 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1mdiff --git a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ grep 'hello[K[K[K[K[K[01;31m[K[01;31m[Kscript[m[K[m[K' *.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ mv [K[K[Kmv git git_follow_along.txt[K[K[K[K_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ echo git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt 
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[Kgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ cat git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt | head -n 3
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[0m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K create mode 100644 git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[0m*  [34;42mlibgit2[0m/
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K	[31mmodified:   git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[?1h=[1mdiff --git a/git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt b/git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[1m--- a/git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[1m+++ b/git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[36m@@ -13,3 +13,93 @@[m [mgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[32m+[m[32m-rwxrwxrwx 1 tiger0326 tiger0326 1325 Jan 21 14:01 [01;32mgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[0m[m[41m[7m^M[27m[m[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[7m Manual page git-diff(1) line 3 (press h for help or q to quit)[27m[K[K       Just in case if you are doing something exotic, it should be noted that all of the <commit> in the above de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion, except in the last two forms that[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K           Show only names and status of changed files. See the de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion of the [1m--diff-filter[0m option on what the status letters mean.[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[?1h=git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[0m*  [34;42mlibgit2[0m/
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K[0m[01;32mgit_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[0m*
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K	[32mmodified:   git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt[m
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/dash python/Dash-by-Plotly/.git/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/docs/js/custom[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks.js
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/fastai-video-browser/src/components/Tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KBrowser.jsx
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K-1-1.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K-1-2.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K-1-3.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K-1-4.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K-1-5.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K-1-6.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/fastai/GitHub/course-v3-master/course-v3-master/files/dl-2019/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/tran[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K-1-7.json
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/git_test_project/text_project/.git/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/kaggle - house_prices/data_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/plotly & dash course/my_work/dash_app_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/plotly & dash course/Plotly-Dashboards-with-Dash/.git/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/sandeep_model_testing_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/.git/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Learning/TA_MLE/git_lessons/git_follow_along_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.txt
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KionAttribute.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/openexr/IlmImf/ImfTileDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KionAttribute.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kor.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kor.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kor.pb.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kor.pb.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kor_database.cc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/3rdparty/protobuf/src/google/protobuf/de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kor_database.h
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/dnn/dnn_java[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/dnn/dnn_java[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K/dnn_java[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion/images/Feature_De[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion_BruteForce_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/features2d/images/Feature_De[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/Bounding_Rects_Circles_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/Bounding_Rotated_Ellipses_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/Find_Contours_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/Hull_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/Moments_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/images/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/Point_Polygon_Test_Tutorial_Cover.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles/bounding_rects_circles.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles/images/Bounding_Rects_Circles_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles/images/Bounding_Rects_Circles_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses/bounding_rotated_ellipses.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses/images/Bounding_Rotated_Ellipses_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses/images/Bounding_Rotated_Ellipses_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours/find_contours.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours/images/Find_Contours_Original_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours/images/Find_Contours_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull/hull.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull/images/Hull_Original_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull/images/Hull_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments/images/Moments_Result1.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments/images/Moments_Result2.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments/images/Moments_Source_Image.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments/moments.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test/images
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test/images/Point_Polygon_Test_Result.jpg
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test/images/Point_Polygon_Test_Source_Image.png
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/doc/tutorials/imgproc/shapede[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test/point_polygon_test.markdown
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BRIEFDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceHammingDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceHammingLUTDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceL1De[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/BruteForceSL2De[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/FlannBasedDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorMatcherTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/ORBDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/SIFTDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/misc/java/test/SURFDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorExtractorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/test/test_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors_invariance.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/features2d/test/test_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors_regression.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/modules/objdetect/misc/java/test/HOGDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[KorTest.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/deb_package_check
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/execstack_check
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/functions
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/maven/opencv/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/properties
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/pylintrc
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/valgrind.supp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/platforms/[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Ks/valgrind_3rdparty.supp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/features2D/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/features2D/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion/SURF_matching_Demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/findContours_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/generalContours_demo1.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/generalContours_demo2.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/cpp/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/pointPolygonTest_demo.cpp
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/features2D/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/features2D/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion/SURFMatchingDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles/GeneralContoursDemo1.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses/GeneralContoursDemo2.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours/FindContoursDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull/HullDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments/MomentsDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/java/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test/PointPolygonTestDemo.java
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/features2D/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/features2D/feature_de[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion/SURF_matching_Demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rects_circles/generalContours_demo1.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/bounding_rotated_ellipses/generalContours_demo2.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/find_contours/findContours_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/hull/hull_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/moments/moments_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./Set ups/opencv/sources/samples/python/tutorial_code/ShapeDe[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kors/point_polygon_test/pointPolygonTest_demo.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/data_extraction_[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[K.py
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/MTR/data_for_generic_model/Parameter_De[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN1_Data_De[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[K[01;31m[Kscript[m[K[m[K.txt[m[K[36m[K:[m[K./TATA/STINT_1_NOV19_TO_JAN20/TA_Tata_Steel/1. MTR Project/3. CA Fan/Kumar_Sir_Anomoly_Meeting/Output_Results/CA_FAN2_Data_De[01;31m[K[01;31m[K[01;31m[Kscript[m[K[m[K[m[Kion.csv
+[35m[Kgit_follow_along_script.txt[m[K[36m[K:[m[K[35m[Kgit_follow_along_[01;31m[Kscript[m[K.
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ grep 'script' *.txtit log --since=2.hour1.hourminutepretty=format:'%h - %an - %cr - %s'
+[?1h=ae61199 - Ankit Gyan Chand - 69 minutes ago - added text to dummy text[m
+336d749 - Ankit Gyan Chand - 2 hours ago - commit 1[m
+82586a8 - Ankit Gyan Chand - 2 hours ago - cleaned directory[m
+92fb315 - Ankit Gyan Chand - 2 hours ago - removed embedded git repository[m
+17823e3 - Ankit Gyan Chand - 7 hours ago - Initial Project Version[m
+[K[?1l>]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ due[K -d 1 -h
+464K	./.git
+3.1M	.
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ git remove[K[Kte
+]0;tiger0326@TIGER0326: /mnt/d/Learning/TA_MLE/git_lessons[01;32mtiger0326@TIGER0326[00m:[01;34m/mnt/d/Learning/TA_MLE/git_lessons[00m$ exit
+exit
+
+Script done on 2021-01-24 21:27:21+0530
