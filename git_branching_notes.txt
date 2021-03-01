@@ -1,0 +1,82 @@
+creating new branch
+    git branch <branch name>
+        git branch testing
+
+Switching Branches
+    git checkout <branch name>
+        git checkout testing
+
+To see history for all branches
+    git log --oneline --decorate --graph --all
+
+Switch to an existing branch
+    git switch testing-branch
+
+Create a new branch and switch to it
+    git switch -c new-branch
+    
+
+To create a new branch and switch to it at the same time
+    git checkout -b <branch_name>
+        git checkout -b iss53
+
+Return to your previously checked out branch
+    git switch -
+
+To merge different branch with master
+    git checkout master
+    git merge <branch name>
+
+To see the last commit on each branch
+    git branch -v
+
+To see all the branches that contain work you haven’t yet merged in
+    git branch --no-merged
+    
+To delete a branch
+    git branch -d <branch name>
+    (Not merged branch will not get deleted, to force delete use 'git branch -D <branch name>')
+
+To see which branch is merged or not merged with particular branch
+    git branch --no-merged <branch with which not merged brances has to be listed>
+
+Changing a branch name
+    Rename the branch locally with the git branch --move command
+        git branch --move bad-branch-name corrected-branch-name
+        
+    To push this change to the server/remote
+        git push --set-upstream origin corrected-branch-name
+    
+    bad-branch-name will still be present, to remove that completely
+        git push origin --delete bad-branch-name
+    
+To push a local branch to server
+
+        git push origin serverfix
+    
+    to push under different name
+        git push origin serverfix:awesomebranch
+    
+    
+Don’t type your password every time and save it temporarily
+    git config --global credential.helper cache
+    
+When you do a fetch that brings down new remote-tracking branches, you don’t automatically have local, editable copies of them. To merge this work into your current working branch, you can run git merge origin/serverfix. If you want your own serverfix branch that you can work on, you can base it off your remote-tracking branch
+    
+    git checkout -b serverfix origin/serverfix
+    
+Pulling
+    While the git fetch command will fetch all the changes on the server that you don’t have yet, it will not modify your working directory at all.
+    It will simply get the data for you and let you merge it yourself.
+    git pull which is essentially a git fetch immediately followed by a git merge in most cases.
+    
+Deleting Remote Branches
+    git push origin --delete serverfix
+    
+Rebasing
+    git checkout experiment
+    git rebase master
+    
+    git checkout master
+    git merge experiment
+    
