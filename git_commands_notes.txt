@@ -1,1 +1,40 @@
-git log --pretty=format:'%h - %an - %cr - %s'
+git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+listing history logs
+    git log --pretty=format:'%h - %an - %cr - %s'
+    
+    The issue54..origin/master syntax is a log filter that asks Git to display only those commits that are on the latter branch
+        git log --no-merges issue54..origin/master
+    
+tagging later
+    git tag -a v1.2 <part of the checksum id>
+        git tag -a v1.2 9fceb02
+
+sharing tags
+    git push origin <tagname>
+        git push origin v1.5
+    
+    to push many tags at once to server
+        git push origin --tags
+    
+deleting tags
+    git tag -d <tagname>
+        git tag -d v1.4-lw
+    
+    deleting from server
+        one way
+        git push <remote> :refs/tags/<tagname>
+            git push origin :refs/tags/v1.4-lw
+        second way
+        git push origin --delete <tagname>
+        
+    
+checking out tags
+    git checkout v2.0.0
+    
+alias
+    set below
+        git config --global alias.unstage 'reset HEAD --'
+    to be able to run below
+        git unstage fileA
+        
