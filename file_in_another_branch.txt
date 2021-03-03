@@ -1,4 +1,8 @@
 Hello,
 I am a text eneterd using a separate branch than main branch.
 
-I like speciality, thank you!
+I like speciality, thank you
+
+
+I got entered here after being merged with main.
+
