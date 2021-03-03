@@ -1,0 +1,4 @@
+Hello,
+I am a text eneterd using a separate branch than main branch.
+
+I like speciality, thank you!
