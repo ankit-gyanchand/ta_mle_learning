@@ -1,3 +1,6 @@
+to remove cache data
+    git rm -r --cached .
+
 git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
 listing history logs
